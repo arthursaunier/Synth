@@ -1924,59 +1924,37 @@ Text GLabel 10050 2550 2    50   Input ~ 0
 PIIn3
 Text GLabel 10050 2650 2    50   Input ~ 0
 PIIn4
-$Comp
-L Connector:Conn_01x08_Female J?
-U 1 1 60964236
-P 9850 3350
-F 0 "J?" H 9700 2750 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 9350 2850 50  0000 L CNN
-F 2 "" H 9850 3350 50  0001 C CNN
-F 3 "~" H 9850 3350 50  0001 C CNN
-	1    9850 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x08_Male J?
-U 1 1 6096423C
-P 9300 3350
-F 0 "J?" H 9400 2750 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 9400 2850 50  0000 C CNN
-F 2 "" H 9300 3350 50  0001 C CNN
-F 3 "~" H 9300 3350 50  0001 C CNN
-	1    9300 3350
-	-1   0    0    1   
-$EndComp
-Text GLabel 9100 2950 0    50   Input ~ 0
+Text GLabel 8250 5250 0    50   Input ~ 0
 DEOut1
-Text GLabel 9100 3050 0    50   Input ~ 0
+Text GLabel 8250 5350 0    50   Input ~ 0
 DEOut2
-Text GLabel 9100 3150 0    50   Input ~ 0
+Text GLabel 8250 5450 0    50   Input ~ 0
 DEOut3
-Text GLabel 9100 3250 0    50   Input ~ 0
+Text GLabel 8250 5550 0    50   Input ~ 0
 DEOut4
-Text GLabel 9100 3350 0    50   Input ~ 0
+Text GLabel 8250 5850 0    50   Input ~ 0
 DEIn1
-Text GLabel 9100 3450 0    50   Input ~ 0
+Text GLabel 8250 5950 0    50   Input ~ 0
 DEIn2
-Text GLabel 9100 3550 0    50   Input ~ 0
+Text GLabel 8250 6050 0    50   Input ~ 0
 DEIn3
-Text GLabel 9100 3650 0    50   Input ~ 0
+Text GLabel 8250 6150 0    50   Input ~ 0
 DEIn4
-Text GLabel 10050 3350 2    50   Input ~ 0
+Text GLabel 9250 5850 2    50   Input ~ 0
 DEIn1
-Text GLabel 10050 3450 2    50   Input ~ 0
+Text GLabel 9250 5950 2    50   Input ~ 0
 DEIn2
-Text GLabel 10050 3550 2    50   Input ~ 0
+Text GLabel 9250 6050 2    50   Input ~ 0
 DEIn3
-Text GLabel 10050 3650 2    50   Input ~ 0
+Text GLabel 9250 6150 2    50   Input ~ 0
 DEIn4
-Text GLabel 10050 2950 2    50   Input ~ 0
+Text GLabel 9250 5250 2    50   Input ~ 0
 DEOut1
-Text GLabel 10050 3050 2    50   Input ~ 0
+Text GLabel 9250 5350 2    50   Input ~ 0
 DEOut2
-Text GLabel 10050 3150 2    50   Input ~ 0
+Text GLabel 9250 5450 2    50   Input ~ 0
 DEOut3
-Text GLabel 10050 3250 2    50   Input ~ 0
+Text GLabel 9250 5550 2    50   Input ~ 0
 DEOut4
 Text GLabel 6000 2950 2    50   Input ~ 0
 PIOut3
@@ -2081,5 +2059,43 @@ DEIn6
 Text GLabel 2350 4900 3    50   Input ~ 0
 DEOut5
 Text GLabel 5500 4900 3    50   Input ~ 0
+DEOut6
+Text GLabel 9250 6250 2    50   Input ~ 0
+DEIn5
+Text GLabel 9250 6350 2    50   Input ~ 0
+DEIn6
+Text GLabel 8250 6250 0    50   Input ~ 0
+DEIn5
+Text GLabel 8250 6350 0    50   Input ~ 0
+DEIn6
+Text GLabel 8250 5650 0    50   Input ~ 0
+DEOut5
+Text GLabel 8250 5750 0    50   Input ~ 0
+DEOut6
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 610EB4F8
+P 8450 5850
+F 0 "J?" H 8600 5000 50  0000 R CNN
+F 1 "Conn_01x12_Male" H 8850 5100 50  0000 R CNN
+F 2 "" H 8450 5850 50  0001 C CNN
+F 3 "~" H 8450 5850 50  0001 C CNN
+	1    8450 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J?
+U 1 1 610EEE30
+P 9050 5850
+F 0 "J?" H 8942 5025 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 8942 5116 50  0000 C CNN
+F 2 "" H 9050 5850 50  0001 C CNN
+F 3 "~" H 9050 5850 50  0001 C CNN
+	1    9050 5850
+	-1   0    0    1   
+$EndComp
+Text GLabel 9250 5650 2    50   Input ~ 0
+DEOut5
+Text GLabel 9250 5750 2    50   Input ~ 0
 DEOut6
 $EndSCHEMATC

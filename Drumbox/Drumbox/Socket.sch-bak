@@ -207,7 +207,7 @@ F 3 "~" H 7850 2250 50  0001 C CNN
 	1    7850 2250
 	0    1    1    0   
 $EndComp
-Text GLabel 4000 4650 2    50   Input ~ 0
+Text GLabel 9800 1650 2    50   Input ~ 0
 OutMono
 $Comp
 L Device:C_Small C30
@@ -465,32 +465,18 @@ Text GLabel 9900 4000 2    50   Input ~ 0
 Out5
 Text GLabel 10900 4000 2    50   Input ~ 0
 Out6
-Text GLabel 5100 4650 0    50   Input ~ 0
+Text GLabel 9600 950  0    50   Input ~ 0
 Out1
-Text GLabel 5100 4850 0    50   Input ~ 0
+Text GLabel 9600 1050 0    50   Input ~ 0
 Out2
-Text GLabel 5100 5050 0    50   Input ~ 0
+Text GLabel 9600 1150 0    50   Input ~ 0
 Out3
-Text GLabel 5100 5250 0    50   Input ~ 0
+Text GLabel 9600 1250 0    50   Input ~ 0
 Out4
-Text GLabel 5100 5450 0    50   Input ~ 0
+Text GLabel 9600 1350 0    50   Input ~ 0
 Out5
-Text GLabel 5100 5650 0    50   Input ~ 0
+Text GLabel 9600 1450 0    50   Input ~ 0
 Out6
-Wire Wire Line
-	5600 4650 5600 4850
-Connection ~ 5600 5450
-Wire Wire Line
-	5600 5450 5600 5650
-Connection ~ 5600 5250
-Wire Wire Line
-	5600 5250 5600 5450
-Connection ~ 5600 5050
-Connection ~ 5600 4850
-Wire Wire Line
-	5600 4850 5600 5050
-Wire Wire Line
-	3450 4650 4000 4650
 $Comp
 L Connector:AudioJack2_Switch J3
 U 1 1 6033BAAE
@@ -615,14 +601,14 @@ Wire Wire Line
 $Comp
 L Device:R_POT VOL?
 U 1 1 6042C372
-P 5300 2400
+P 10050 4950
 AR Path="/60274250/6042C372" Ref="VOL?"  Part="1" 
 AR Path="/6029ED90/6042C372" Ref="VOL3"  Part="1" 
-F 0 "VOL3" V 5400 2200 50  0000 C CNN
-F 1 "10k" V 5500 2200 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5300 2400 50  0001 C CNN
-F 3 "~" H 5300 2400 50  0001 C CNN
-	1    5300 2400
+F 0 "VOL3" V 10150 4750 50  0000 C CNN
+F 1 "10k" V 10250 4750 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 10050 4950 50  0001 C CNN
+F 3 "~" H 10050 4950 50  0001 C CNN
+	1    10050 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -639,14 +625,14 @@ Wire Wire Line
 $Comp
 L Device:R_POT VOL?
 U 1 1 60444133
-P 5300 3600
+P 9450 5900
 AR Path="/60274250/60444133" Ref="VOL?"  Part="1" 
 AR Path="/6029ED90/60444133" Ref="VOL5"  Part="1" 
-F 0 "VOL5" V 5400 3400 50  0000 C CNN
-F 1 "10k" V 5500 3400 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5300 3600 50  0001 C CNN
-F 3 "~" H 5300 3600 50  0001 C CNN
-	1    5300 3600
+F 0 "VOL5" V 9550 5700 50  0000 C CNN
+F 1 "10k" V 9650 5700 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 9450 5900 50  0001 C CNN
+F 3 "~" H 9450 5900 50  0001 C CNN
+	1    9450 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -675,14 +661,14 @@ Wire Wire Line
 $Comp
 L Device:R_POT VOL?
 U 1 1 60478892
-P 8350 3600
+P 10050 5900
 AR Path="/60274250/60478892" Ref="VOL?"  Part="1" 
 AR Path="/6029ED90/60478892" Ref="VOL6"  Part="1" 
-F 0 "VOL6" V 8450 3400 50  0000 C CNN
-F 1 "10k" V 8550 3400 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8350 3600 50  0001 C CNN
-F 3 "~" H 8350 3600 50  0001 C CNN
-	1    8350 3600
+F 0 "VOL6" V 10150 5700 50  0000 C CNN
+F 1 "10k" V 10250 5700 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 10050 5900 50  0001 C CNN
+F 3 "~" H 10050 5900 50  0001 C CNN
+	1    10050 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -702,20 +688,8 @@ Wire Wire Line
 	7350 1150 7400 1150
 Text GLabel 9900 3100 2    50   Input ~ 0
 Fx
-Text GLabel 3450 4650 0    50   Input ~ 0
+Text GLabel 9700 1650 0    50   Input ~ 0
 FilterOut
-Wire Wire Line
-	5100 5650 5600 5650
-Wire Wire Line
-	5100 5450 5600 5450
-Wire Wire Line
-	5100 5250 5600 5250
-Wire Wire Line
-	5100 5050 5600 5050
-Wire Wire Line
-	5100 4850 5600 4850
-Wire Wire Line
-	5100 4650 5600 4650
 Text GLabel 10900 3100 2    50   Input ~ 0
 Fx
 Text GLabel 9900 3650 2    50   Input ~ 0
@@ -726,15 +700,8 @@ Text GLabel 10900 3650 2    50   Input ~ 0
 Fx
 Text GLabel 10900 4200 2    50   Input ~ 0
 Fx
-Wire Wire Line
-	5600 5050 5600 5150
-Text GLabel 5950 5150 2    50   Input ~ 0
+Text GLabel 10700 1200 2    50   Input ~ 0
 Filter
-Connection ~ 5600 5150
-Wire Wire Line
-	5600 5150 5600 5250
-Wire Wire Line
-	5600 5150 5950 5150
 $Comp
 L Device:C_Small C37
 U 1 1 6050318E
@@ -821,115 +788,115 @@ Wire Wire Line
 	2350 3250 2200 3250
 Text GLabel 2350 3250 2    50   Input ~ 0
 AuxIn
-Text GLabel 1000 5000 0    50   Input ~ 0
+Text GLabel 3400 5000 0    50   Input ~ 0
 Mute1
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 606AE2B1
-P 1200 5000
-F 0 "SW1" H 1200 5285 50  0000 C CNN
-F 1 "Mute-1" H 1200 5194 50  0000 C CNN
-F 2 "Synth:SW_Toggle_Blue_wSlots" H 1200 5000 50  0001 C CNN
-F 3 "~" H 1200 5000 50  0001 C CNN
-	1    1200 5000
+P 3600 5000
+F 0 "SW1" H 3600 5285 50  0000 C CNN
+F 1 "Mute-1" H 3600 5194 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 5000 50  0001 C CNN
+F 3 "~" H 3600 5000 50  0001 C CNN
+	1    3600 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 5600 0    50   Input ~ 0
+Text GLabel 3400 5600 0    50   Input ~ 0
 Mute2
 $Comp
 L Switch:SW_SPDT SW2
 U 1 1 606AE2C1
-P 1200 5600
-F 0 "SW2" H 1200 5885 50  0000 C CNN
-F 1 "Mute-2" H 1200 5794 50  0000 C CNN
-F 2 "Synth:SW_Toggle_Blue_wSlots" H 1200 5600 50  0001 C CNN
-F 3 "~" H 1200 5600 50  0001 C CNN
-	1    1200 5600
+P 3600 5600
+F 0 "SW2" H 3600 5885 50  0000 C CNN
+F 1 "Mute-2" H 3600 5794 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 5600 50  0001 C CNN
+F 3 "~" H 3600 5600 50  0001 C CNN
+	1    3600 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 6200 0    50   Input ~ 0
+Text GLabel 3400 6200 0    50   Input ~ 0
 Mute3
 $Comp
 L Switch:SW_SPDT SW3
 U 1 1 606AE2D1
-P 1200 6200
-F 0 "SW3" H 1200 6485 50  0000 C CNN
-F 1 "Mute-3" H 1200 6394 50  0000 C CNN
-F 2 "Synth:SW_Toggle_Blue_wSlots" H 1200 6200 50  0001 C CNN
-F 3 "~" H 1200 6200 50  0001 C CNN
-	1    1200 6200
+P 3600 6200
+F 0 "SW3" H 3600 6485 50  0000 C CNN
+F 1 "Mute-3" H 3600 6394 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 6200 50  0001 C CNN
+F 3 "~" H 3600 6200 50  0001 C CNN
+	1    3600 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 6800 0    50   Input ~ 0
+Text GLabel 3400 6800 0    50   Input ~ 0
 Mute4
 $Comp
 L Switch:SW_SPDT SW4
 U 1 1 606AE2E1
-P 1200 6800
-F 0 "SW4" H 1200 7085 50  0000 C CNN
-F 1 "Mute-4" H 1200 6994 50  0000 C CNN
-F 2 "Synth:SW_Toggle_Blue_wSlots" H 1200 6800 50  0001 C CNN
-F 3 "~" H 1200 6800 50  0001 C CNN
-	1    1200 6800
+P 3600 6800
+F 0 "SW4" H 3600 7085 50  0000 C CNN
+F 1 "Mute-4" H 3600 6994 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 6800 50  0001 C CNN
+F 3 "~" H 3600 6800 50  0001 C CNN
+	1    3600 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2000 5000 0    50   Input ~ 0
+Text GLabel 4400 5000 0    50   Input ~ 0
 Mute5
 $Comp
 L Switch:SW_SPDT SW5
 U 1 1 606AE2F1
-P 2200 5000
-F 0 "SW5" H 2200 5285 50  0000 C CNN
-F 1 "Mute-5" H 2200 5194 50  0000 C CNN
-F 2 "Synth:SW_Toggle_Blue_wSlots" H 2200 5000 50  0001 C CNN
-F 3 "~" H 2200 5000 50  0001 C CNN
-	1    2200 5000
+P 4600 5000
+F 0 "SW5" H 4600 5285 50  0000 C CNN
+F 1 "Mute-5" H 4600 5194 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 4600 5000 50  0001 C CNN
+F 3 "~" H 4600 5000 50  0001 C CNN
+	1    4600 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2000 5600 0    50   Input ~ 0
+Text GLabel 4400 5600 0    50   Input ~ 0
 Mute6
 $Comp
 L Switch:SW_SPDT SW6
 U 1 1 606AE301
-P 2200 5600
-F 0 "SW6" H 2200 5885 50  0000 C CNN
-F 1 "Mute-6" H 2200 5794 50  0000 C CNN
-F 2 "Synth:SW_Toggle_Blue_wSlots" H 2200 5600 50  0001 C CNN
-F 3 "~" H 2200 5600 50  0001 C CNN
-	1    2200 5600
+P 4600 5600
+F 0 "SW6" H 4600 5885 50  0000 C CNN
+F 1 "Mute-6" H 4600 5794 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 4600 5600 50  0001 C CNN
+F 3 "~" H 4600 5600 50  0001 C CNN
+	1    4600 5600
 	1    0    0    -1  
 $EndComp
-Text Notes 1400 4600 0    50   ~ 0
+Text Notes 3800 4600 0    50   ~ 0
 Mute switches
 Wire Notes Line
 	500  4350 11200 4350
-NoConn ~ 1400 6300
-NoConn ~ 1400 6900
-NoConn ~ 1400 5700
-NoConn ~ 2400 5700
-NoConn ~ 1400 5100
-NoConn ~ 2400 5100
-Text GLabel 1400 4900 2    50   Input ~ 0
+NoConn ~ 3800 6300
+NoConn ~ 3800 6900
+NoConn ~ 3800 5700
+NoConn ~ 4800 5700
+NoConn ~ 3800 5100
+NoConn ~ 4800 5100
+Text GLabel 3800 4900 2    50   Input ~ 0
 Fx1
-Text GLabel 1400 6100 2    50   Input ~ 0
+Text GLabel 3800 6100 2    50   Input ~ 0
 Fx3
-Text GLabel 1400 5500 2    50   Input ~ 0
+Text GLabel 3800 5500 2    50   Input ~ 0
 Fx2
-Text GLabel 2400 4900 2    50   Input ~ 0
+Text GLabel 4800 4900 2    50   Input ~ 0
 Fx5
-Text GLabel 2400 5500 2    50   Input ~ 0
+Text GLabel 4800 5500 2    50   Input ~ 0
 Fx6
-Text GLabel 1400 6700 2    50   Input ~ 0
+Text GLabel 3800 6700 2    50   Input ~ 0
 Fx4
-Text GLabel 8650 2400 2    50   Input ~ 0
+Text GLabel 9000 5900 2    50   Input ~ 0
 Mute4
-Text GLabel 8650 1300 2    50   Input ~ 0
+Text GLabel 9600 4950 2    50   Input ~ 0
 Mute2
-Text GLabel 5650 3600 2    50   Input ~ 0
+Text GLabel 9600 5900 2    50   Input ~ 0
 Mute5
-Text GLabel 8650 3600 2    50   Input ~ 0
+Text GLabel 10350 5900 2    50   Input ~ 0
 Mute6
-Text GLabel 5650 2400 2    50   Input ~ 0
+Text GLabel 10200 4950 2    50   Input ~ 0
 Mute3
 Wire Wire Line
 	4250 2500 4350 2500
@@ -1309,14 +1276,14 @@ Wire Wire Line
 $Comp
 L Device:R_POT VOL?
 U 1 1 60472477
-P 8350 2400
+P 8850 5900
 AR Path="/60274250/60472477" Ref="VOL?"  Part="1" 
 AR Path="/6029ED90/60472477" Ref="VOL4"  Part="1" 
-F 0 "VOL4" V 8450 2200 50  0000 C CNN
-F 1 "10k" V 8550 2200 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8350 2400 50  0001 C CNN
-F 3 "~" H 8350 2400 50  0001 C CNN
-	1    8350 2400
+F 0 "VOL4" V 8950 5700 50  0000 C CNN
+F 1 "10k" V 9050 5700 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8850 5900 50  0001 C CNN
+F 3 "~" H 8850 5900 50  0001 C CNN
+	1    8850 5900
 	1    0    0    -1  
 $EndComp
 Connection ~ 6650 2500
@@ -1328,68 +1295,60 @@ Wire Wire Line
 	7700 1150 7600 1150
 Wire Wire Line
 	5050 3450 5300 3450
-Wire Wire Line
-	5300 3750 5300 3850
 $Comp
 L power:GND #PWR0129
 U 1 1 60571475
-P 5300 3850
-F 0 "#PWR0129" H 5300 3600 50  0001 C CNN
-F 1 "GND" H 5305 3677 50  0000 C CNN
-F 2 "" H 5300 3850 50  0001 C CNN
-F 3 "" H 5300 3850 50  0001 C CNN
-	1    5300 3850
+P 9450 6200
+F 0 "#PWR0129" H 9450 5950 50  0001 C CNN
+F 1 "GND" H 9455 6027 50  0000 C CNN
+F 2 "" H 9450 6200 50  0001 C CNN
+F 3 "" H 9450 6200 50  0001 C CNN
+	1    9450 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 3600 5650 3600
-Wire Wire Line
-	5650 2400 5450 2400
 Wire Wire Line
 	5000 2250 5300 2250
 $Comp
 L power:GND #PWR0130
 U 1 1 6058FFD6
-P 5300 2700
-F 0 "#PWR0130" H 5300 2450 50  0001 C CNN
-F 1 "GND" H 5305 2527 50  0000 C CNN
-F 2 "" H 5300 2700 50  0001 C CNN
-F 3 "" H 5300 2700 50  0001 C CNN
-	1    5300 2700
+P 10050 5250
+F 0 "#PWR0130" H 10050 5000 50  0001 C CNN
+F 1 "GND" H 10055 5077 50  0000 C CNN
+F 2 "" H 10050 5250 50  0001 C CNN
+F 3 "" H 10050 5250 50  0001 C CNN
+	1    10050 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2550 5300 2700
+	10050 5100 10050 5250
 $Comp
 L Device:R_POT VOL?
 U 1 1 60598327
-P 5300 1300
+P 8850 4950
 AR Path="/60274250/60598327" Ref="VOL?"  Part="1" 
 AR Path="/6029ED90/60598327" Ref="VOL1"  Part="1" 
-F 0 "VOL1" V 5400 1100 50  0000 C CNN
-F 1 "10k" V 5500 1100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5300 1300 50  0001 C CNN
-F 3 "~" H 5300 1300 50  0001 C CNN
-	1    5300 1300
+F 0 "VOL1" V 8950 4750 50  0000 C CNN
+F 1 "10k" V 9050 4750 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8850 4950 50  0001 C CNN
+F 3 "~" H 8850 4950 50  0001 C CNN
+	1    8850 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 5650 1300 2    50   Input ~ 0
+Text GLabel 9000 4950 2    50   Input ~ 0
 Mute1
-Wire Wire Line
-	5650 1300 5450 1300
 $Comp
 L power:GND #PWR0131
 U 1 1 6059832F
-P 5300 1600
-F 0 "#PWR0131" H 5300 1350 50  0001 C CNN
-F 1 "GND" H 5305 1427 50  0000 C CNN
-F 2 "" H 5300 1600 50  0001 C CNN
-F 3 "" H 5300 1600 50  0001 C CNN
-	1    5300 1600
+P 8850 5250
+F 0 "#PWR0131" H 8850 5000 50  0001 C CNN
+F 1 "GND" H 8855 5077 50  0000 C CNN
+F 2 "" H 8850 5250 50  0001 C CNN
+F 3 "" H 8850 5250 50  0001 C CNN
+	1    8850 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 1450 5300 1600
+	8850 5100 8850 5250
 Wire Wire Line
 	5000 1150 5300 1150
 Connection ~ 6650 1400
@@ -1398,63 +1357,53 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0132
 U 1 1 6060D378
-P 8350 3850
-F 0 "#PWR0132" H 8350 3600 50  0001 C CNN
-F 1 "GND" H 8355 3677 50  0000 C CNN
-F 2 "" H 8350 3850 50  0001 C CNN
-F 3 "" H 8350 3850 50  0001 C CNN
-	1    8350 3850
+P 10050 6200
+F 0 "#PWR0132" H 10050 5950 50  0001 C CNN
+F 1 "GND" H 10055 6027 50  0000 C CNN
+F 2 "" H 10050 6200 50  0001 C CNN
+F 3 "" H 10050 6200 50  0001 C CNN
+	1    10050 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 3850 8350 3750
-Wire Wire Line
-	8500 3600 8650 3600
-Wire Wire Line
-	8650 2400 8500 2400
+	10200 5900 10350 5900
 Wire Wire Line
 	8000 2250 8350 2250
 $Comp
 L power:GND #PWR0133
 U 1 1 60635A96
-P 8350 2650
-F 0 "#PWR0133" H 8350 2400 50  0001 C CNN
-F 1 "GND" H 8355 2477 50  0000 C CNN
-F 2 "" H 8350 2650 50  0001 C CNN
-F 3 "" H 8350 2650 50  0001 C CNN
-	1    8350 2650
+P 8850 6200
+F 0 "#PWR0133" H 8850 5950 50  0001 C CNN
+F 1 "GND" H 8855 6027 50  0000 C CNN
+F 2 "" H 8850 6200 50  0001 C CNN
+F 3 "" H 8850 6200 50  0001 C CNN
+	1    8850 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 2650 8350 2550
 $Comp
 L power:GND #PWR0134
 U 1 1 6063A160
-P 8350 1550
-F 0 "#PWR0134" H 8350 1300 50  0001 C CNN
-F 1 "GND" H 8355 1377 50  0000 C CNN
-F 2 "" H 8350 1550 50  0001 C CNN
-F 3 "" H 8350 1550 50  0001 C CNN
-	1    8350 1550
+P 9450 5250
+F 0 "#PWR0134" H 9450 5000 50  0001 C CNN
+F 1 "GND" H 9455 5077 50  0000 C CNN
+F 2 "" H 9450 5250 50  0001 C CNN
+F 3 "" H 9450 5250 50  0001 C CNN
+	1    9450 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 1550 8350 1450
 $Comp
 L Device:R_POT VOL?
 U 1 1 6046CA23
-P 8350 1300
+P 9450 4950
 AR Path="/60274250/6046CA23" Ref="VOL?"  Part="1" 
 AR Path="/6029ED90/6046CA23" Ref="VOL2"  Part="1" 
-F 0 "VOL2" V 8450 1100 50  0000 C CNN
-F 1 "10k" V 8550 1100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8350 1300 50  0001 C CNN
-F 3 "~" H 8350 1300 50  0001 C CNN
-	1    8350 1300
+F 0 "VOL2" V 9550 4750 50  0000 C CNN
+F 1 "10k" V 9650 4750 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 9450 4950 50  0001 C CNN
+F 3 "~" H 9450 4950 50  0001 C CNN
+	1    9450 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 1300 8500 1300
 Wire Wire Line
 	8000 1150 8350 1150
 Text GLabel 1350 4000 2    50   Input ~ 0
@@ -1487,4 +1436,530 @@ F 3 "" H 1300 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1350 4000 1200 4000
+$Comp
+L Connector:AudioJack2_Switch J?
+U 1 1 605DECE7
+P 1000 5100
+F 0 "J?" H 1032 5525 50  0000 C CNN
+F 1 "Bass OUT" H 1032 5434 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 5300 50  0001 C CNN
+F 3 "~" H 1000 5300 50  0001 C CNN
+	1    1000 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1200 5000
+NoConn ~ 1200 5200
+Wire Wire Line
+	1200 4900 1300 4900
+$Comp
+L power:GND #PWR?
+U 1 1 605DECF0
+P 1300 4900
+F 0 "#PWR?" H 1300 4650 50  0001 C CNN
+F 1 "GND" H 1305 4727 50  0000 C CNN
+F 2 "" H 1300 4900 50  0001 C CNN
+F 3 "" H 1300 4900 50  0001 C CNN
+	1    1300 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 5100 1200 5100
+$Comp
+L Connector:AudioJack2_Switch J?
+U 1 1 605DECF8
+P 1000 5850
+F 0 "J?" H 1032 6275 50  0000 C CNN
+F 1 "LBonga OUT" H 1032 6184 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 6050 50  0001 C CNN
+F 3 "~" H 1000 6050 50  0001 C CNN
+	1    1000 5850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1200 5750
+NoConn ~ 1200 5950
+Wire Wire Line
+	1200 5650 1300 5650
+$Comp
+L power:GND #PWR?
+U 1 1 605DED01
+P 1300 5650
+F 0 "#PWR?" H 1300 5400 50  0001 C CNN
+F 1 "GND" H 1305 5477 50  0000 C CNN
+F 2 "" H 1300 5650 50  0001 C CNN
+F 3 "" H 1300 5650 50  0001 C CNN
+	1    1300 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 5850 1200 5850
+$Comp
+L Connector:AudioJack2_Switch J?
+U 1 1 605DED08
+P 1950 5100
+F 0 "J?" H 1982 5525 50  0000 C CNN
+F 1 "HBonga OUT" H 1982 5434 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 5300 50  0001 C CNN
+F 3 "~" H 1950 5300 50  0001 C CNN
+	1    1950 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 5000
+NoConn ~ 2150 5200
+Wire Wire Line
+	2150 4900 2250 4900
+$Comp
+L power:GND #PWR?
+U 1 1 605DED11
+P 2250 4900
+F 0 "#PWR?" H 2250 4650 50  0001 C CNN
+F 1 "GND" H 2255 4727 50  0000 C CNN
+F 2 "" H 2250 4900 50  0001 C CNN
+F 3 "" H 2250 4900 50  0001 C CNN
+	1    2250 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 5100 2150 5100
+$Comp
+L Connector:AudioJack2_Switch J?
+U 1 1 605DED18
+P 1950 5850
+F 0 "J?" H 1982 6275 50  0000 C CNN
+F 1 "Clave OUT" H 1982 6184 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 6050 50  0001 C CNN
+F 3 "~" H 1950 6050 50  0001 C CNN
+	1    1950 5850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 5750
+NoConn ~ 2150 5950
+Wire Wire Line
+	2150 5650 2250 5650
+$Comp
+L power:GND #PWR?
+U 1 1 605DED21
+P 2250 5650
+F 0 "#PWR?" H 2250 5400 50  0001 C CNN
+F 1 "GND" H 2255 5477 50  0000 C CNN
+F 2 "" H 2250 5650 50  0001 C CNN
+F 3 "" H 2250 5650 50  0001 C CNN
+	1    2250 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 5850 2150 5850
+$Comp
+L Connector:AudioJack2_Switch J?
+U 1 1 605DED2B
+P 1000 6550
+F 0 "J?" H 1032 6975 50  0000 C CNN
+F 1 "Snare OUT" H 1032 6884 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 6750 50  0001 C CNN
+F 3 "~" H 1000 6750 50  0001 C CNN
+	1    1000 6550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1200 6450
+NoConn ~ 1200 6650
+Wire Wire Line
+	1200 6350 1300 6350
+$Comp
+L power:GND #PWR?
+U 1 1 605DED34
+P 1300 6350
+F 0 "#PWR?" H 1300 6100 50  0001 C CNN
+F 1 "GND" H 1305 6177 50  0000 C CNN
+F 2 "" H 1300 6350 50  0001 C CNN
+F 3 "" H 1300 6350 50  0001 C CNN
+	1    1300 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 6550 1200 6550
+$Comp
+L Connector:AudioJack2_Switch J?
+U 1 1 605DED3C
+P 1950 6550
+F 0 "J?" H 1982 6975 50  0000 C CNN
+F 1 "HiHat OUT" H 1982 6884 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 6750 50  0001 C CNN
+F 3 "~" H 1950 6750 50  0001 C CNN
+	1    1950 6550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 6450
+NoConn ~ 2150 6650
+Wire Wire Line
+	2150 6350 2250 6350
+$Comp
+L power:GND #PWR?
+U 1 1 605DED45
+P 2250 6350
+F 0 "#PWR?" H 2250 6100 50  0001 C CNN
+F 1 "GND" H 2255 6177 50  0000 C CNN
+F 2 "" H 2250 6350 50  0001 C CNN
+F 3 "" H 2250 6350 50  0001 C CNN
+	1    2250 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 6550 2150 6550
+Text GLabel 1350 5100 2    50   Input ~ 0
+Mute1
+Text GLabel 1350 5850 2    50   Input ~ 0
+Mute2
+Text GLabel 2300 5100 2    50   Input ~ 0
+Mute3
+Text GLabel 2300 5850 2    50   Input ~ 0
+Mute4
+Text GLabel 1350 6550 2    50   Input ~ 0
+Mute5
+Text GLabel 2300 6550 2    50   Input ~ 0
+Mute6
+Text Notes 1300 4500 0    50   ~ 0
+Output jacks
+Text GLabel 5300 1150 2    50   Input ~ 0
+Vol1
+Text GLabel 8850 4800 1    50   Input ~ 0
+Vol1
+Text GLabel 8350 1150 2    50   Input ~ 0
+Vol2
+Wire Wire Line
+	9450 5100 9450 5250
+Text GLabel 9450 4800 1    50   Input ~ 0
+Vol2
+Wire Notes Line
+	9150 2350 11200 2350
+Text GLabel 5300 2250 2    50   Input ~ 0
+Vol3
+Text GLabel 8350 2250 2    50   Input ~ 0
+Vol4
+Text GLabel 5300 3450 2    50   Input ~ 0
+Vol5
+Text GLabel 8350 3450 2    50   Input ~ 0
+Vol6
+Text GLabel 10050 4800 1    50   Input ~ 0
+Vol3
+Text GLabel 8850 5750 1    50   Input ~ 0
+Vol4
+Wire Wire Line
+	8850 6050 8850 6200
+Text GLabel 9450 5750 1    50   Input ~ 0
+Vol5
+Wire Wire Line
+	9450 6050 9450 6200
+Wire Wire Line
+	10050 6050 10050 6200
+Text GLabel 10050 5750 1    50   Input ~ 0
+Vol6
+Text GLabel 7300 4750 2    50   Input ~ 0
+Vol1
+Text GLabel 7300 4950 2    50   Input ~ 0
+Vol3
+Text GLabel 7300 5150 2    50   Input ~ 0
+Vol5
+Text GLabel 7300 4850 2    50   Input ~ 0
+Vol2
+Text GLabel 7300 5050 2    50   Input ~ 0
+Vol4
+Text GLabel 7300 5250 2    50   Input ~ 0
+Vol6
+Text GLabel 6300 4750 0    50   Input ~ 0
+Vol1
+Text GLabel 6300 4950 0    50   Input ~ 0
+Vol3
+Text GLabel 6300 5150 0    50   Input ~ 0
+Vol5
+Text GLabel 6300 4850 0    50   Input ~ 0
+Vol2
+Text GLabel 6300 5050 0    50   Input ~ 0
+Vol4
+Text GLabel 6300 5250 0    50   Input ~ 0
+Vol6
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 607EED7C
+P 7100 5050
+F 0 "J?" H 6950 4550 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 6600 4650 50  0000 L CNN
+F 2 "" H 7100 5050 50  0001 C CNN
+F 3 "~" H 7100 5050 50  0001 C CNN
+	1    7100 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 607EF8C8
+P 6500 5050
+F 0 "J?" H 6600 4550 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 6600 4650 50  0000 C CNN
+F 2 "" H 6500 5050 50  0001 C CNN
+F 3 "~" H 6500 5050 50  0001 C CNN
+	1    6500 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 60802E6F
+P 7100 5850
+F 0 "J?" H 6950 5350 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 6600 5450 50  0000 L CNN
+F 2 "" H 7100 5850 50  0001 C CNN
+F 3 "~" H 7100 5850 50  0001 C CNN
+	1    7100 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 60802E75
+P 6500 5850
+F 0 "J?" H 6600 5350 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 6600 5450 50  0000 C CNN
+F 2 "" H 6500 5850 50  0001 C CNN
+F 3 "~" H 6500 5850 50  0001 C CNN
+	1    6500 5850
+	-1   0    0    1   
+$EndComp
+Text GLabel 6300 5550 0    50   Input ~ 0
+In1
+Text GLabel 6300 5650 0    50   Input ~ 0
+In2
+Text GLabel 6300 5750 0    50   Input ~ 0
+In3
+Text GLabel 6300 5850 0    50   Input ~ 0
+In4
+Text GLabel 6300 5950 0    50   Input ~ 0
+In5
+Text GLabel 6300 6050 0    50   Input ~ 0
+In6
+Text GLabel 7300 5550 2    50   Input ~ 0
+In1
+Text GLabel 7300 5650 2    50   Input ~ 0
+In2
+Text GLabel 7300 5750 2    50   Input ~ 0
+In3
+Text GLabel 7300 5850 2    50   Input ~ 0
+In4
+Text GLabel 7300 5950 2    50   Input ~ 0
+In5
+Text GLabel 7300 6050 2    50   Input ~ 0
+In6
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 60847097
+P 6150 6950
+F 0 "J?" H 6000 6450 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 5650 6550 50  0000 L CNN
+F 2 "" H 6150 6950 50  0001 C CNN
+F 3 "~" H 6150 6950 50  0001 C CNN
+	1    6150 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 6084709D
+P 5550 6950
+F 0 "J?" H 5650 6450 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5650 6550 50  0000 C CNN
+F 2 "" H 5550 6950 50  0001 C CNN
+F 3 "~" H 5550 6950 50  0001 C CNN
+	1    5550 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6084CD05
+P 5150 6650
+F 0 "#PWR?" H 5150 6400 50  0001 C CNN
+F 1 "GND" H 5155 6477 50  0000 C CNN
+F 2 "" H 5150 6650 50  0001 C CNN
+F 3 "" H 5150 6650 50  0001 C CNN
+	1    5150 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60855B63
+P 6550 7150
+F 0 "#PWR?" H 6550 6900 50  0001 C CNN
+F 1 "GND" H 6555 6977 50  0000 C CNN
+F 2 "" H 6550 7150 50  0001 C CNN
+F 3 "" H 6550 7150 50  0001 C CNN
+	1    6550 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6085F0F1
+P 6550 6650
+F 0 "#PWR?" H 6550 6400 50  0001 C CNN
+F 1 "GND" H 6555 6477 50  0000 C CNN
+F 2 "" H 6550 6650 50  0001 C CNN
+F 3 "" H 6550 6650 50  0001 C CNN
+	1    6550 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60868022
+P 5150 7150
+F 0 "#PWR?" H 5150 6900 50  0001 C CNN
+F 1 "GND" H 5155 6977 50  0000 C CNN
+F 2 "" H 5150 7150 50  0001 C CNN
+F 3 "" H 5150 7150 50  0001 C CNN
+	1    5150 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 6650 6350 6650
+Wire Wire Line
+	6550 7150 6350 7150
+Wire Wire Line
+	5350 7150 5150 7150
+Wire Wire Line
+	5350 6650 5150 6650
+Text GLabel 5350 6750 0    50   Input ~ 0
+OutMono
+Text GLabel 5350 6850 0    50   Input ~ 0
+FilterCV
+Text GLabel 5350 6950 0    50   Input ~ 0
+AuxIn
+Text GLabel 6350 6750 2    50   Input ~ 0
+OutMono
+Text GLabel 6350 6850 2    50   Input ~ 0
+FilterCV
+Text GLabel 6350 6950 2    50   Input ~ 0
+AuxIn
+$Comp
+L power:+12V #PWR?
+U 1 1 608A9229
+P 5050 7050
+AR Path="/608A9229" Ref="#PWR?"  Part="1" 
+AR Path="/6029ED90/608A9229" Ref="#PWR?"  Part="1" 
+AR Path="/6029FC1F/608A9229" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5050 6900 50  0001 C CNN
+F 1 "+12V" H 5065 7223 50  0000 C CNN
+F 2 "" H 5050 7050 50  0001 C CNN
+F 3 "" H 5050 7050 50  0001 C CNN
+	1    5050 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 608AE3C5
+P 6650 7050
+AR Path="/608AE3C5" Ref="#PWR?"  Part="1" 
+AR Path="/6029ED90/608AE3C5" Ref="#PWR?"  Part="1" 
+AR Path="/6029FC1F/608AE3C5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 6900 50  0001 C CNN
+F 1 "+12V" H 6665 7223 50  0000 C CNN
+F 2 "" H 6650 7050 50  0001 C CNN
+F 3 "" H 6650 7050 50  0001 C CNN
+	1    6650 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 7050 6350 7050
+Wire Wire Line
+	5350 7050 5050 7050
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 608D8AED
+P 9800 1250
+F 0 "J?" H 9900 750 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 9900 850 50  0000 C CNN
+F 2 "" H 9800 1250 50  0001 C CNN
+F 3 "~" H 9800 1250 50  0001 C CNN
+	1    9800 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10550 950  10600 950 
+Wire Wire Line
+	10600 950  10600 1050
+Wire Wire Line
+	10600 1450 10550 1450
+Wire Wire Line
+	10550 1350 10600 1350
+Connection ~ 10600 1350
+Wire Wire Line
+	10600 1350 10600 1450
+Wire Wire Line
+	10550 1250 10600 1250
+Connection ~ 10600 1250
+Wire Wire Line
+	10600 1250 10600 1350
+Wire Wire Line
+	10550 1150 10600 1150
+Connection ~ 10600 1150
+Wire Wire Line
+	10600 1150 10600 1200
+Wire Wire Line
+	10550 1050 10600 1050
+Connection ~ 10600 1050
+Wire Wire Line
+	10600 1050 10600 1150
+Wire Wire Line
+	10600 1200 10700 1200
+Connection ~ 10600 1200
+Wire Wire Line
+	10600 1200 10600 1250
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 608D8AE7
+P 10350 1250
+F 0 "J?" H 10200 750 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9850 850 50  0000 L CNN
+F 2 "" H 10350 1250 50  0001 C CNN
+F 3 "~" H 10350 1250 50  0001 C CNN
+	1    10350 1250
+	-1   0    0    1   
+$EndComp
+Text GLabel 10650 1650 0    50   Input ~ 0
+Out1
+Text GLabel 10650 1750 0    50   Input ~ 0
+Out2
+Text GLabel 10650 1850 0    50   Input ~ 0
+Out3
+Text GLabel 10650 1950 0    50   Input ~ 0
+Out4
+Text GLabel 10650 2050 0    50   Input ~ 0
+Out5
+Text GLabel 10650 2150 0    50   Input ~ 0
+Out6
+Text GLabel 10800 1900 2    50   Input ~ 0
+Filter
+Wire Wire Line
+	10650 1650 10700 1650
+Wire Wire Line
+	10700 1650 10700 1750
+Wire Wire Line
+	10700 2150 10650 2150
+Wire Wire Line
+	10650 2050 10700 2050
+Connection ~ 10700 2050
+Wire Wire Line
+	10700 2050 10700 2150
+Wire Wire Line
+	10650 1950 10700 1950
+Connection ~ 10700 1950
+Wire Wire Line
+	10700 1950 10700 2050
+Wire Wire Line
+	10650 1850 10700 1850
+Connection ~ 10700 1850
+Wire Wire Line
+	10700 1850 10700 1900
+Wire Wire Line
+	10650 1750 10700 1750
+Connection ~ 10700 1750
+Wire Wire Line
+	10700 1750 10700 1850
+Wire Wire Line
+	10700 1900 10800 1900
+Connection ~ 10700 1900
+Wire Wire Line
+	10700 1900 10700 1950
+Wire Wire Line
+	9800 1650 9700 1650
 $EndSCHEMATC

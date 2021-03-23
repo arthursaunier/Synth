@@ -1871,23 +1871,23 @@ PIOut3
 Text GLabel 10150 900  1    50   Input ~ 0
 PIOut4
 $Comp
-L Connector:Conn_01x08_Female J?
+L Connector:Conn_01x08_Female J13
 U 1 1 606C9508
 P 9850 2350
-F 0 "J?" H 9700 1750 50  0000 L CNN
+F 0 "J13" H 9700 1750 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 9350 1850 50  0000 L CNN
-F 2 "" H 9850 2350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 9850 2350 50  0001 C CNN
 F 3 "~" H 9850 2350 50  0001 C CNN
 	1    9850 2350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x08_Male J?
+L Connector:Conn_01x08_Male J12
 U 1 1 606CA11D
 P 9300 2350
-F 0 "J?" H 9400 1750 50  0000 C CNN
+F 0 "J12" H 9400 1750 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 9400 1850 50  0000 C CNN
-F 2 "" H 9300 2350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9300 2350 50  0001 C CNN
 F 3 "~" H 9300 2350 50  0001 C CNN
 	1    9300 2350
 	-1   0    0    1   
@@ -2073,23 +2073,23 @@ DEOut5
 Text GLabel 8250 5750 0    50   Input ~ 0
 DEOut6
 $Comp
-L Connector:Conn_01x12_Male J?
+L Connector:Conn_01x12_Male J6
 U 1 1 610EB4F8
 P 8450 5850
-F 0 "J?" H 8600 5000 50  0000 R CNN
+F 0 "J6" H 8600 5000 50  0000 R CNN
 F 1 "Conn_01x12_Male" H 8850 5100 50  0000 R CNN
-F 2 "" H 8450 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8450 5850 50  0001 C CNN
 F 3 "~" H 8450 5850 50  0001 C CNN
 	1    8450 5850
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x12_Female J?
+L Connector:Conn_01x12_Female J11
 U 1 1 610EEE30
 P 9050 5850
-F 0 "J?" H 8942 5025 50  0000 C CNN
+F 0 "J11" H 8942 5025 50  0000 C CNN
 F 1 "Conn_01x12_Female" H 8942 5116 50  0000 C CNN
-F 2 "" H 9050 5850 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 9050 5850 50  0001 C CNN
 F 3 "~" H 9050 5850 50  0001 C CNN
 	1    9050 5850
 	-1   0    0    1   

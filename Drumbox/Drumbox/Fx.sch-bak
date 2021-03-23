@@ -126,34 +126,34 @@ $EndComp
 $Comp
 L Device:R_POT VOLUME1
 U 1 1 602CA343
-P 8750 2050
-F 0 "VOLUME1" H 8680 2096 50  0000 R CNN
-F 1 "50k" H 8680 2005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8750 2050 50  0001 C CNN
-F 3 "~" H 8750 2050 50  0001 C CNN
-	1    8750 2050
+P 9400 950
+F 0 "VOLUME1" H 9330 996 50  0000 R CNN
+F 1 "50k" H 9330 905 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 9400 950 50  0001 C CNN
+F 3 "~" H 9400 950 50  0001 C CNN
+	1    9400 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT TONE1
 U 1 1 602CA349
-P 5950 1700
-F 0 "TONE1" V 5835 1700 50  0000 C CNN
-F 1 "10k" V 5744 1700 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5950 1700 50  0001 C CNN
-F 3 "~" H 5950 1700 50  0001 C CNN
-	1    5950 1700
+P 10650 950
+F 0 "TONE1" V 10535 950 50  0000 C CNN
+F 1 "10k" V 10444 950 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 10650 950 50  0001 C CNN
+F 3 "~" H 10650 950 50  0001 C CNN
+	1    10650 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_POT GAIN1
 U 1 1 602CA34F
-P 4750 2750
-F 0 "GAIN1" V 4543 2750 50  0000 C CNN
-F 1 "100k" V 4634 2750 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 4750 2750 50  0001 C CNN
-F 3 "~" H 4750 2750 50  0001 C CNN
-	1    4750 2750
+P 10550 1400
+F 0 "GAIN1" V 10343 1400 50  0000 C CNN
+F 1 "100k" V 10434 1400 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 10550 1400 50  0001 C CNN
+F 3 "~" H 10550 1400 50  0001 C CNN
+	1    10550 1400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -192,12 +192,12 @@ $EndComp
 $Comp
 L power:GND #PWR0207
 U 1 1 602CA36D
-P 8750 2300
-F 0 "#PWR0207" H 8750 2050 50  0001 C CNN
-F 1 "GND" H 8755 2127 50  0000 C CNN
-F 2 "" H 8750 2300 50  0001 C CNN
-F 3 "" H 8750 2300 50  0001 C CNN
-	1    8750 2300
+P 9400 1200
+F 0 "#PWR0207" H 9400 950 50  0001 C CNN
+F 1 "GND" H 9405 1027 50  0000 C CNN
+F 2 "" H 9400 1200 50  0001 C CNN
+F 3 "" H 9400 1200 50  0001 C CNN
+	1    9400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -247,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1800 4400 1800
 Wire Wire Line
-	5000 2750 4950 2750
+	10800 1400 10750 1400
 Wire Wire Line
 	4900 2450 5000 2450
 Wire Wire Line
@@ -257,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2450 4300 2450
 Wire Wire Line
-	8750 2200 8750 2300
+	9400 1100 9400 1200
 Wire Wire Line
 	5250 1700 5000 1700
 Wire Wire Line
@@ -268,32 +268,29 @@ Wire Wire Line
 	3100 900  3100 1050
 Wire Wire Line
 	6450 2050 6450 2200
-Text GLabel 9300 2050 2    50   Input ~ 0
+Text GLabel 9550 950  2    50   Input ~ 0
 FxStupidOut
 Text GLabel 1550 1600 0    50   Input ~ 0
 FxStupidIn
 Wire Wire Line
-	8900 2050 9300 2050
+	10550 1250 10750 1250
 Wire Wire Line
-	4750 2600 4950 2600
+	10750 1250 10750 1400
+Connection ~ 10750 1400
 Wire Wire Line
-	4950 2600 4950 2750
-Connection ~ 4950 2750
-Wire Wire Line
-	4950 2750 4900 2750
+	10750 1400 10700 1400
 Wire Wire Line
 	4600 2750 4300 2750
 Wire Wire Line
-	5950 1550 5950 1500
+	10650 800  10650 750 
 Wire Wire Line
 	5450 1700 5750 1700
 Wire Wire Line
-	5950 1500 5750 1500
+	10650 750  10450 750 
 Wire Wire Line
-	5750 1500 5750 1700
-Connection ~ 5750 1700
+	10450 750  10450 950 
 Wire Wire Line
-	5750 1700 5800 1700
+	10450 950  10500 950 
 Wire Wire Line
 	6100 1700 6450 1700
 Wire Wire Line
@@ -315,14 +312,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 2950 4300 2750
 Connection ~ 4300 2750
-Wire Notes Line
-	8300 1500 8300 2600
-Wire Notes Line
-	8300 2600 9100 2600
-Wire Notes Line
-	9100 2600 9100 1500
-Wire Notes Line
-	9100 1500 8300 1500
 Wire Wire Line
 	7950 1800 8100 1800
 $Comp
@@ -480,8 +469,6 @@ $EndComp
 Wire Wire Line
 	7250 1900 7300 1900
 Connection ~ 7300 1900
-Text Notes 8500 1450 0    50   ~ 0
-a enlever ?\n
 Text Notes 4850 750  0    50   ~ 0
 StupidBox Effect
 Text GLabel 1600 4650 2    50   Input ~ 0
@@ -594,40 +581,22 @@ NoConn ~ 5000 5900
 Wire Wire Line
 	5000 6000 4550 6000
 $Comp
-L Device:R_POT Freq1
+L Device:R_POT Time
 U 1 1 603B4463
-P 3750 6000
-F 0 "Freq1" V 3635 6000 50  0000 C CNN
-F 1 "100k" V 3544 6000 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3750 6000 50  0001 C CNN
-F 3 "~" H 3750 6000 50  0001 C CNN
-	1    3750 6000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3750 6150 3750 6200
-Wire Wire Line
-	4250 6000 3950 6000
-Wire Wire Line
-	3750 6200 3950 6200
-Wire Wire Line
-	3950 6200 3950 6000
-Connection ~ 3950 6000
-Wire Wire Line
-	3950 6000 3900 6000
-Wire Wire Line
-	3600 6000 3250 6000
-$Comp
-L power:GND #PWR0216
-U 1 1 603B6F36
-P 3250 6000
-F 0 "#PWR0216" H 3250 5750 50  0001 C CNN
-F 1 "GND" H 3255 5827 50  0000 C CNN
-F 2 "" H 3250 6000 50  0001 C CNN
-F 3 "" H 3250 6000 50  0001 C CNN
-	1    3250 6000
+P 2950 7300
+F 0 "Time" V 2835 7300 50  0000 C CNN
+F 1 "100k" V 2744 7300 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2950 7300 50  0001 C CNN
+F 3 "~" H 2950 7300 50  0001 C CNN
+	1    2950 7300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3100 7300 3150 7300
+Wire Wire Line
+	3150 7300 3150 7100
+Wire Wire Line
+	3150 7100 2950 7100
 $Comp
 L Device:C_Small C48
 U 1 1 603B9F2C
@@ -1008,38 +977,27 @@ $EndComp
 Text GLabel 9300 5000 2    50   Input ~ 0
 FxEchoOut
 $Comp
-L Device:R_POT MIX-Echo2
-U 1 1 6050D3BE
-P 7950 5900
-F 0 "MIX-Echo2" V 7835 5900 50  0000 C CNN
-F 1 "100k" V 7744 5900 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 7950 5900 50  0001 C CNN
-F 3 "~" H 7950 5900 50  0001 C CNN
-	1    7950 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0220
 U 1 1 6052DBFC
-P 7950 6200
-F 0 "#PWR0220" H 7950 5950 50  0001 C CNN
-F 1 "GND" H 7955 6027 50  0000 C CNN
-F 2 "" H 7950 6200 50  0001 C CNN
-F 3 "" H 7950 6200 50  0001 C CNN
-	1    7950 6200
+P 3450 7550
+F 0 "#PWR0220" H 3450 7300 50  0001 C CNN
+F 1 "GND" H 3455 7377 50  0000 C CNN
+F 2 "" H 3450 7550 50  0001 C CNN
+F 3 "" H 3450 7550 50  0001 C CNN
+	1    3450 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 6050 7950 6200
+	3450 7400 3450 7550
 $Comp
-L Device:R_POT MIX-Echo3
+L Device:R_POT FB
 U 1 1 6053B0C2
-P 10050 4350
-F 0 "MIX-Echo3" V 9935 4350 50  0000 C CNN
-F 1 "100k" V 9844 4350 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 10050 4350 50  0001 C CNN
-F 3 "~" H 10050 4350 50  0001 C CNN
-	1    10050 4350
+P 2950 6450
+F 0 "FB" V 2835 6450 50  0000 C CNN
+F 1 "100k" V 2744 6450 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2950 6450 50  0001 C CNN
+F 3 "~" H 2950 6450 50  0001 C CNN
+	1    2950 6450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1061,7 +1019,7 @@ Wire Wire Line
 	8100 5900 10250 5900
 Wire Wire Line
 	10250 5900 10250 4900
-NoConn ~ 10050 4500
+NoConn ~ 2950 6600
 $Comp
 L Device:CP1_Small C59
 U 1 1 60562059
@@ -1235,4 +1193,190 @@ Wire Wire Line
 	6850 1900 6950 1900
 Wire Wire Line
 	6850 1900 6850 2000
+Text GLabel 2000 5450 2    50   Input ~ 0
+FxStupidIn
+Text GLabel 2000 5550 2    50   Input ~ 0
+FxEchoIn
+Text GLabel 2000 5650 2    50   Input ~ 0
+Filter
+Text GLabel 1000 5450 0    50   Input ~ 0
+FxStupidIn
+Text GLabel 1000 5550 0    50   Input ~ 0
+FxEchoIn
+Text GLabel 1000 5650 0    50   Input ~ 0
+Filter
+Text GLabel 1000 5750 0    50   Input ~ 0
+FxStupidOut
+Text GLabel 2000 5750 2    50   Input ~ 0
+FxEcho
+Wire Wire Line
+	3900 6000 4250 6000
+Wire Wire Line
+	2950 7150 2950 7100
+Text GLabel 3900 6000 3    50   Input ~ 0
+TimeOut
+$Comp
+L power:GND #PWR?
+U 1 1 60AF3684
+P 2950 7550
+F 0 "#PWR?" H 2950 7300 50  0001 C CNN
+F 1 "GND" H 2955 7377 50  0000 C CNN
+F 2 "" H 2950 7550 50  0001 C CNN
+F 3 "" H 2950 7550 50  0001 C CNN
+	1    2950 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 7450 2950 7550
+Text GLabel 2950 7100 1    50   Input ~ 0
+TimeOut
+Text GLabel 1050 6500 0    50   Input ~ 0
+TimeOut
+Text GLabel 2000 6500 2    50   Input ~ 0
+TimeOut
+Text GLabel 7950 5750 3    50   Input ~ 0
+ToneEchoIn
+Text GLabel 3450 7100 1    50   Input ~ 0
+ToneEchoIn
+Text GLabel 8100 5900 3    50   Input ~ 0
+ToneEchoOut
+$Comp
+L Device:R_POT Tone-echo
+U 1 1 6050D3BE
+P 3450 7250
+F 0 "Tone-echo" V 3335 7250 50  0000 C CNN
+F 1 "100k" V 3244 7250 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3450 7250 50  0001 C CNN
+F 3 "~" H 3450 7250 50  0001 C CNN
+	1    3450 7250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 7250 2    50   Input ~ 0
+ToneEchoOut
+Text GLabel 1050 6600 0    50   Input ~ 0
+ToneEchoIn
+Text GLabel 2000 6600 2    50   Input ~ 0
+ToneEchoIn
+Text GLabel 1050 6700 0    50   Input ~ 0
+ToneEchoOut
+Text GLabel 2000 6700 2    50   Input ~ 0
+ToneEchoOut
+Text GLabel 10050 4200 0    50   Input ~ 0
+FBIn
+Text GLabel 10200 4350 0    50   Input ~ 0
+FBOut
+Text GLabel 2950 6300 1    50   Input ~ 0
+FBIn
+Text GLabel 3100 6450 2    50   Input ~ 0
+FBOut
+Text GLabel 1050 6800 0    50   Input ~ 0
+FBIn
+Text GLabel 2000 6800 2    50   Input ~ 0
+FBIn
+Text GLabel 2000 6900 2    50   Input ~ 0
+FBOut
+Text GLabel 1050 6900 0    50   Input ~ 0
+FBOut
+Text GLabel 4600 2750 3    50   Input ~ 0
+GainIn
+Text GLabel 5000 2750 3    50   Input ~ 0
+GainOut
+Text GLabel 10800 1400 2    50   Input ~ 0
+GainOut
+Text GLabel 10400 1400 0    50   Input ~ 0
+GainIn
+Text GLabel 1000 6150 0    50   Input ~ 0
+GainIn
+Text GLabel 2000 6150 2    50   Input ~ 0
+GainOut
+Text GLabel 1000 5850 0    50   Input ~ 0
+ToneIN
+Text GLabel 2000 5850 2    50   Input ~ 0
+ToneIN
+Text GLabel 1000 5950 0    50   Input ~ 0
+ToneOUT
+Text GLabel 2000 5950 2    50   Input ~ 0
+ToneOUT
+Text GLabel 10450 950  0    50   Input ~ 0
+ToneIN
+Text GLabel 10800 950  2    50   Input ~ 0
+ToneOUT
+Text GLabel 1000 6050 0    50   Input ~ 0
+VolOut
+Text GLabel 2000 6050 2    50   Input ~ 0
+VolOut
+Text GLabel 9400 800  1    50   Input ~ 0
+VolOut
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 60E18D3E
+P 1250 6800
+F 0 "J?" H 1350 6300 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1350 6400 50  0000 C CNN
+F 2 "" H 1250 6800 50  0001 C CNN
+F 3 "~" H 1250 6800 50  0001 C CNN
+	1    1250 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 60E19E5C
+P 1800 6800
+F 0 "J?" H 1650 6300 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 1300 6400 50  0000 L CNN
+F 2 "" H 1800 6800 50  0001 C CNN
+F 3 "~" H 1800 6800 50  0001 C CNN
+	1    1800 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E6EADC
+P 1050 7000
+F 0 "#PWR?" H 1050 6750 50  0001 C CNN
+F 1 "GND" H 1055 6827 50  0000 C CNN
+F 2 "" H 1050 7000 50  0001 C CNN
+F 3 "" H 1050 7000 50  0001 C CNN
+	1    1050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E76A16
+P 2000 7000
+F 0 "#PWR?" H 2000 6750 50  0001 C CNN
+F 1 "GND" H 2005 6827 50  0000 C CNN
+F 2 "" H 2000 7000 50  0001 C CNN
+F 3 "" H 2000 7000 50  0001 C CNN
+	1    2000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 60E98216
+P 1200 5850
+F 0 "J?" H 1400 5250 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 1650 5350 50  0000 R CNN
+F 2 "" H 1200 5850 50  0001 C CNN
+F 3 "~" H 1200 5850 50  0001 C CNN
+	1    1200 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 60EA2594
+P 1800 5850
+F 0 "J?" H 1650 5250 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 1650 5350 50  0000 C CNN
+F 2 "" H 1800 5850 50  0001 C CNN
+F 3 "~" H 1800 5850 50  0001 C CNN
+	1    1800 5850
+	-1   0    0    1   
+$EndComp
+Text GLabel 8750 1900 2    50   Input ~ 0
+VolOut
+Text GLabel 5750 1700 3    50   Input ~ 0
+ToneIN
+Text GLabel 6100 1700 1    50   Input ~ 0
+ToneOUT
 $EndSCHEMATC
