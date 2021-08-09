@@ -465,18 +465,6 @@ Text GLabel 9900 4000 2    50   Input ~ 0
 Out5
 Text GLabel 10900 4000 2    50   Input ~ 0
 Out6
-Text GLabel 9600 950  0    50   Input ~ 0
-Out1
-Text GLabel 9600 1050 0    50   Input ~ 0
-Out2
-Text GLabel 9600 1150 0    50   Input ~ 0
-Out3
-Text GLabel 9600 1250 0    50   Input ~ 0
-Out4
-Text GLabel 9600 1350 0    50   Input ~ 0
-Out5
-Text GLabel 9600 1450 0    50   Input ~ 0
-Out6
 $Comp
 L Connector:AudioJack2_Switch J3
 U 1 1 6033BAAE
@@ -700,8 +688,6 @@ Text GLabel 10900 3650 2    50   Input ~ 0
 Fx
 Text GLabel 10900 4200 2    50   Input ~ 0
 Fx
-Text GLabel 10700 1200 2    50   Input ~ 0
-Filter
 $Comp
 L Device:C_Small C37
 U 1 1 6050318E
@@ -1437,10 +1423,10 @@ $EndComp
 Wire Wire Line
 	1350 4000 1200 4000
 $Comp
-L Connector:AudioJack2_Switch J?
+L Connector:AudioJack2_Switch J15
 U 1 1 605DECE7
 P 1000 5100
-F 0 "J?" H 1032 5525 50  0000 C CNN
+F 0 "J15" H 1032 5525 50  0000 C CNN
 F 1 "Bass OUT" H 1032 5434 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 5300 50  0001 C CNN
 F 3 "~" H 1000 5300 50  0001 C CNN
@@ -1452,10 +1438,10 @@ NoConn ~ 1200 5200
 Wire Wire Line
 	1200 4900 1300 4900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 605DECF0
 P 1300 4900
-F 0 "#PWR?" H 1300 4650 50  0001 C CNN
+F 0 "#PWR01" H 1300 4650 50  0001 C CNN
 F 1 "GND" H 1305 4727 50  0000 C CNN
 F 2 "" H 1300 4900 50  0001 C CNN
 F 3 "" H 1300 4900 50  0001 C CNN
@@ -1465,10 +1451,10 @@ $EndComp
 Wire Wire Line
 	1350 5100 1200 5100
 $Comp
-L Connector:AudioJack2_Switch J?
+L Connector:AudioJack2_Switch J16
 U 1 1 605DECF8
 P 1000 5850
-F 0 "J?" H 1032 6275 50  0000 C CNN
+F 0 "J16" H 1032 6275 50  0000 C CNN
 F 1 "LBonga OUT" H 1032 6184 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 6050 50  0001 C CNN
 F 3 "~" H 1000 6050 50  0001 C CNN
@@ -1480,10 +1466,10 @@ NoConn ~ 1200 5950
 Wire Wire Line
 	1200 5650 1300 5650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 605DED01
 P 1300 5650
-F 0 "#PWR?" H 1300 5400 50  0001 C CNN
+F 0 "#PWR02" H 1300 5400 50  0001 C CNN
 F 1 "GND" H 1305 5477 50  0000 C CNN
 F 2 "" H 1300 5650 50  0001 C CNN
 F 3 "" H 1300 5650 50  0001 C CNN
@@ -1493,10 +1479,10 @@ $EndComp
 Wire Wire Line
 	1350 5850 1200 5850
 $Comp
-L Connector:AudioJack2_Switch J?
+L Connector:AudioJack2_Switch J18
 U 1 1 605DED08
 P 1950 5100
-F 0 "J?" H 1982 5525 50  0000 C CNN
+F 0 "J18" H 1982 5525 50  0000 C CNN
 F 1 "HBonga OUT" H 1982 5434 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 5300 50  0001 C CNN
 F 3 "~" H 1950 5300 50  0001 C CNN
@@ -1508,10 +1494,10 @@ NoConn ~ 2150 5200
 Wire Wire Line
 	2150 4900 2250 4900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 605DED11
 P 2250 4900
-F 0 "#PWR?" H 2250 4650 50  0001 C CNN
+F 0 "#PWR05" H 2250 4650 50  0001 C CNN
 F 1 "GND" H 2255 4727 50  0000 C CNN
 F 2 "" H 2250 4900 50  0001 C CNN
 F 3 "" H 2250 4900 50  0001 C CNN
@@ -1521,10 +1507,10 @@ $EndComp
 Wire Wire Line
 	2300 5100 2150 5100
 $Comp
-L Connector:AudioJack2_Switch J?
+L Connector:AudioJack2_Switch J19
 U 1 1 605DED18
 P 1950 5850
-F 0 "J?" H 1982 6275 50  0000 C CNN
+F 0 "J19" H 1982 6275 50  0000 C CNN
 F 1 "Clave OUT" H 1982 6184 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 6050 50  0001 C CNN
 F 3 "~" H 1950 6050 50  0001 C CNN
@@ -1536,10 +1522,10 @@ NoConn ~ 2150 5950
 Wire Wire Line
 	2150 5650 2250 5650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 605DED21
 P 2250 5650
-F 0 "#PWR?" H 2250 5400 50  0001 C CNN
+F 0 "#PWR06" H 2250 5400 50  0001 C CNN
 F 1 "GND" H 2255 5477 50  0000 C CNN
 F 2 "" H 2250 5650 50  0001 C CNN
 F 3 "" H 2250 5650 50  0001 C CNN
@@ -1549,10 +1535,10 @@ $EndComp
 Wire Wire Line
 	2300 5850 2150 5850
 $Comp
-L Connector:AudioJack2_Switch J?
+L Connector:AudioJack2_Switch J17
 U 1 1 605DED2B
 P 1000 6550
-F 0 "J?" H 1032 6975 50  0000 C CNN
+F 0 "J17" H 1032 6975 50  0000 C CNN
 F 1 "Snare OUT" H 1032 6884 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 6750 50  0001 C CNN
 F 3 "~" H 1000 6750 50  0001 C CNN
@@ -1564,10 +1550,10 @@ NoConn ~ 1200 6650
 Wire Wire Line
 	1200 6350 1300 6350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 605DED34
 P 1300 6350
-F 0 "#PWR?" H 1300 6100 50  0001 C CNN
+F 0 "#PWR04" H 1300 6100 50  0001 C CNN
 F 1 "GND" H 1305 6177 50  0000 C CNN
 F 2 "" H 1300 6350 50  0001 C CNN
 F 3 "" H 1300 6350 50  0001 C CNN
@@ -1577,10 +1563,10 @@ $EndComp
 Wire Wire Line
 	1350 6550 1200 6550
 $Comp
-L Connector:AudioJack2_Switch J?
+L Connector:AudioJack2_Switch J20
 U 1 1 605DED3C
 P 1950 6550
-F 0 "J?" H 1982 6975 50  0000 C CNN
+F 0 "J20" H 1982 6975 50  0000 C CNN
 F 1 "HiHat OUT" H 1982 6884 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 6750 50  0001 C CNN
 F 3 "~" H 1950 6750 50  0001 C CNN
@@ -1592,10 +1578,10 @@ NoConn ~ 2150 6650
 Wire Wire Line
 	2150 6350 2250 6350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 605DED45
 P 2250 6350
-F 0 "#PWR?" H 2250 6100 50  0001 C CNN
+F 0 "#PWR07" H 2250 6100 50  0001 C CNN
 F 1 "GND" H 2255 6177 50  0000 C CNN
 F 2 "" H 2250 6350 50  0001 C CNN
 F 3 "" H 2250 6350 50  0001 C CNN
@@ -1677,45 +1663,45 @@ Vol4
 Text GLabel 6300 5250 0    50   Input ~ 0
 Vol6
 $Comp
-L Connector:Conn_01x06_Female J?
+L Connector:Conn_01x06_Female J25
 U 1 1 607EED7C
 P 7100 5050
-F 0 "J?" H 6950 4550 50  0000 L CNN
+F 0 "J25" H 6950 4550 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 6600 4650 50  0000 L CNN
-F 2 "" H 7100 5050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7100 5050 50  0001 C CNN
 F 3 "~" H 7100 5050 50  0001 C CNN
 	1    7100 5050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J23
 U 1 1 607EF8C8
 P 6500 5050
-F 0 "J?" H 6600 4550 50  0000 C CNN
+F 0 "J23" H 6600 4550 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 6600 4650 50  0000 C CNN
-F 2 "" H 6500 5050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6500 5050 50  0001 C CNN
 F 3 "~" H 6500 5050 50  0001 C CNN
 	1    6500 5050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J?
+L Connector:Conn_01x06_Female J26
 U 1 1 60802E6F
 P 7100 5850
-F 0 "J?" H 6950 5350 50  0000 L CNN
+F 0 "J26" H 6950 5350 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 6600 5450 50  0000 L CNN
-F 2 "" H 7100 5850 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7100 5850 50  0001 C CNN
 F 3 "~" H 7100 5850 50  0001 C CNN
 	1    7100 5850
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J24
 U 1 1 60802E75
 P 6500 5850
-F 0 "J?" H 6600 5350 50  0000 C CNN
+F 0 "J24" H 6600 5350 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 6600 5450 50  0000 C CNN
-F 2 "" H 6500 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6500 5850 50  0001 C CNN
 F 3 "~" H 6500 5850 50  0001 C CNN
 	1    6500 5850
 	-1   0    0    1   
@@ -1745,32 +1731,32 @@ In5
 Text GLabel 7300 6050 2    50   Input ~ 0
 In6
 $Comp
-L Connector:Conn_01x06_Female J?
+L Connector:Conn_01x06_Female J22
 U 1 1 60847097
 P 6150 6950
-F 0 "J?" H 6000 6450 50  0000 L CNN
+F 0 "J22" H 6000 6450 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 5650 6550 50  0000 L CNN
-F 2 "" H 6150 6950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 6150 6950 50  0001 C CNN
 F 3 "~" H 6150 6950 50  0001 C CNN
 	1    6150 6950
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J21
 U 1 1 6084709D
 P 5550 6950
-F 0 "J?" H 5650 6450 50  0000 C CNN
+F 0 "J21" H 5650 6450 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5650 6550 50  0000 C CNN
-F 2 "" H 5550 6950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5550 6950 50  0001 C CNN
 F 3 "~" H 5550 6950 50  0001 C CNN
 	1    5550 6950
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 6084CD05
 P 5150 6650
-F 0 "#PWR?" H 5150 6400 50  0001 C CNN
+F 0 "#PWR09" H 5150 6400 50  0001 C CNN
 F 1 "GND" H 5155 6477 50  0000 C CNN
 F 2 "" H 5150 6650 50  0001 C CNN
 F 3 "" H 5150 6650 50  0001 C CNN
@@ -1778,10 +1764,10 @@ F 3 "" H 5150 6650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 60855B63
 P 6550 7150
-F 0 "#PWR?" H 6550 6900 50  0001 C CNN
+F 0 "#PWR012" H 6550 6900 50  0001 C CNN
 F 1 "GND" H 6555 6977 50  0000 C CNN
 F 2 "" H 6550 7150 50  0001 C CNN
 F 3 "" H 6550 7150 50  0001 C CNN
@@ -1789,10 +1775,10 @@ F 3 "" H 6550 7150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 6085F0F1
 P 6550 6650
-F 0 "#PWR?" H 6550 6400 50  0001 C CNN
+F 0 "#PWR011" H 6550 6400 50  0001 C CNN
 F 1 "GND" H 6555 6477 50  0000 C CNN
 F 2 "" H 6550 6650 50  0001 C CNN
 F 3 "" H 6550 6650 50  0001 C CNN
@@ -1800,10 +1786,10 @@ F 3 "" H 6550 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 60868022
 P 5150 7150
-F 0 "#PWR?" H 5150 6900 50  0001 C CNN
+F 0 "#PWR010" H 5150 6900 50  0001 C CNN
 F 1 "GND" H 5155 6977 50  0000 C CNN
 F 2 "" H 5150 7150 50  0001 C CNN
 F 3 "" H 5150 7150 50  0001 C CNN
@@ -1835,9 +1821,9 @@ L power:+12V #PWR?
 U 1 1 608A9229
 P 5050 7050
 AR Path="/608A9229" Ref="#PWR?"  Part="1" 
-AR Path="/6029ED90/608A9229" Ref="#PWR?"  Part="1" 
+AR Path="/6029ED90/608A9229" Ref="#PWR08"  Part="1" 
 AR Path="/6029FC1F/608A9229" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5050 6900 50  0001 C CNN
+F 0 "#PWR08" H 5050 6900 50  0001 C CNN
 F 1 "+12V" H 5065 7223 50  0000 C CNN
 F 2 "" H 5050 7050 50  0001 C CNN
 F 3 "" H 5050 7050 50  0001 C CNN
@@ -1849,9 +1835,9 @@ L power:+12V #PWR?
 U 1 1 608AE3C5
 P 6650 7050
 AR Path="/608AE3C5" Ref="#PWR?"  Part="1" 
-AR Path="/6029ED90/608AE3C5" Ref="#PWR?"  Part="1" 
+AR Path="/6029ED90/608AE3C5" Ref="#PWR013"  Part="1" 
 AR Path="/6029FC1F/608AE3C5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6650 6900 50  0001 C CNN
+F 0 "#PWR013" H 6650 6900 50  0001 C CNN
 F 1 "+12V" H 6665 7223 50  0000 C CNN
 F 2 "" H 6650 7050 50  0001 C CNN
 F 3 "" H 6650 7050 50  0001 C CNN
@@ -1862,59 +1848,6 @@ Wire Wire Line
 	6650 7050 6350 7050
 Wire Wire Line
 	5350 7050 5050 7050
-$Comp
-L Connector:Conn_01x06_Male J?
-U 1 1 608D8AED
-P 9800 1250
-F 0 "J?" H 9900 750 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 9900 850 50  0000 C CNN
-F 2 "" H 9800 1250 50  0001 C CNN
-F 3 "~" H 9800 1250 50  0001 C CNN
-	1    9800 1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10550 950  10600 950 
-Wire Wire Line
-	10600 950  10600 1050
-Wire Wire Line
-	10600 1450 10550 1450
-Wire Wire Line
-	10550 1350 10600 1350
-Connection ~ 10600 1350
-Wire Wire Line
-	10600 1350 10600 1450
-Wire Wire Line
-	10550 1250 10600 1250
-Connection ~ 10600 1250
-Wire Wire Line
-	10600 1250 10600 1350
-Wire Wire Line
-	10550 1150 10600 1150
-Connection ~ 10600 1150
-Wire Wire Line
-	10600 1150 10600 1200
-Wire Wire Line
-	10550 1050 10600 1050
-Connection ~ 10600 1050
-Wire Wire Line
-	10600 1050 10600 1150
-Wire Wire Line
-	10600 1200 10700 1200
-Connection ~ 10600 1200
-Wire Wire Line
-	10600 1200 10600 1250
-$Comp
-L Connector:Conn_01x06_Female J?
-U 1 1 608D8AE7
-P 10350 1250
-F 0 "J?" H 10200 750 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 9850 850 50  0000 L CNN
-F 2 "" H 10350 1250 50  0001 C CNN
-F 3 "~" H 10350 1250 50  0001 C CNN
-	1    10350 1250
-	-1   0    0    1   
-$EndComp
 Text GLabel 10650 1650 0    50   Input ~ 0
 Out1
 Text GLabel 10650 1750 0    50   Input ~ 0

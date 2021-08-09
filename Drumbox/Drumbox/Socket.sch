@@ -48,7 +48,7 @@ L Connector:AudioJack2_Switch J2
 U 1 1 603536B7
 P 1050 1850
 F 0 "J2" H 1082 2275 50  0000 C CNN
-F 1 "LBonga IN" H 1082 2184 50  0000 C CNN
+F 1 "HBonga IN" H 1082 2184 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1050 2050 50  0001 C CNN
 F 3 "~" H 1050 2050 50  0001 C CNN
 	1    1050 1850
@@ -76,7 +76,7 @@ L Connector:AudioJack2_Switch J8
 U 1 1 603536C7
 P 2000 1100
 F 0 "J8" H 2032 1525 50  0000 C CNN
-F 1 "HBonga IN" H 2032 1434 50  0000 C CNN
+F 1 "LBonga IN" H 2032 1434 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2000 1300 50  0001 C CNN
 F 3 "~" H 2000 1300 50  0001 C CNN
 	1    2000 1100
@@ -465,18 +465,6 @@ Text GLabel 9900 4000 2    50   Input ~ 0
 Out5
 Text GLabel 10900 4000 2    50   Input ~ 0
 Out6
-Text GLabel 9600 950  0    50   Input ~ 0
-Out1
-Text GLabel 9600 1050 0    50   Input ~ 0
-Out2
-Text GLabel 9600 1150 0    50   Input ~ 0
-Out3
-Text GLabel 9600 1250 0    50   Input ~ 0
-Out4
-Text GLabel 9600 1350 0    50   Input ~ 0
-Out5
-Text GLabel 9600 1450 0    50   Input ~ 0
-Out6
 $Comp
 L Connector:AudioJack2_Switch J3
 U 1 1 6033BAAE
@@ -700,8 +688,6 @@ Text GLabel 10900 3650 2    50   Input ~ 0
 Fx
 Text GLabel 10900 4200 2    50   Input ~ 0
 Fx
-Text GLabel 10700 1200 2    50   Input ~ 0
-Filter
 $Comp
 L Device:C_Small C37
 U 1 1 6050318E
@@ -1469,7 +1455,7 @@ L Connector:AudioJack2_Switch J16
 U 1 1 605DECF8
 P 1000 5850
 F 0 "J16" H 1032 6275 50  0000 C CNN
-F 1 "LBonga OUT" H 1032 6184 50  0000 C CNN
+F 1 "HBonga OUT" H 1032 6184 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 6050 50  0001 C CNN
 F 3 "~" H 1000 6050 50  0001 C CNN
 	1    1000 5850
@@ -1497,7 +1483,7 @@ L Connector:AudioJack2_Switch J18
 U 1 1 605DED08
 P 1950 5100
 F 0 "J18" H 1982 5525 50  0000 C CNN
-F 1 "HBonga OUT" H 1982 5434 50  0000 C CNN
+F 1 "LBonga OUT" H 1982 5434 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 5300 50  0001 C CNN
 F 3 "~" H 1950 5300 50  0001 C CNN
 	1    1950 5100
@@ -1693,7 +1679,7 @@ U 1 1 607EF8C8
 P 6500 5050
 F 0 "J23" H 6600 4550 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 6600 4650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 6500 5050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6500 5050 50  0001 C CNN
 F 3 "~" H 6500 5050 50  0001 C CNN
 	1    6500 5050
 	-1   0    0    1   
@@ -1715,7 +1701,7 @@ U 1 1 60802E75
 P 6500 5850
 F 0 "J24" H 6600 5350 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 6600 5450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 6500 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6500 5850 50  0001 C CNN
 F 3 "~" H 6500 5850 50  0001 C CNN
 	1    6500 5850
 	-1   0    0    1   
@@ -1761,7 +1747,7 @@ U 1 1 6084709D
 P 5550 6950
 F 0 "J21" H 5650 6450 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5650 6550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 5550 6950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5550 6950 50  0001 C CNN
 F 3 "~" H 5550 6950 50  0001 C CNN
 	1    5550 6950
 	-1   0    0    1   
@@ -1862,59 +1848,6 @@ Wire Wire Line
 	6650 7050 6350 7050
 Wire Wire Line
 	5350 7050 5050 7050
-$Comp
-L Connector:Conn_01x06_Male J27
-U 1 1 608D8AED
-P 9800 1250
-F 0 "J27" H 9900 750 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 9900 850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 9800 1250 50  0001 C CNN
-F 3 "~" H 9800 1250 50  0001 C CNN
-	1    9800 1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10550 950  10600 950 
-Wire Wire Line
-	10600 950  10600 1050
-Wire Wire Line
-	10600 1450 10550 1450
-Wire Wire Line
-	10550 1350 10600 1350
-Connection ~ 10600 1350
-Wire Wire Line
-	10600 1350 10600 1450
-Wire Wire Line
-	10550 1250 10600 1250
-Connection ~ 10600 1250
-Wire Wire Line
-	10600 1250 10600 1350
-Wire Wire Line
-	10550 1150 10600 1150
-Connection ~ 10600 1150
-Wire Wire Line
-	10600 1150 10600 1200
-Wire Wire Line
-	10550 1050 10600 1050
-Connection ~ 10600 1050
-Wire Wire Line
-	10600 1050 10600 1150
-Wire Wire Line
-	10600 1200 10700 1200
-Connection ~ 10600 1200
-Wire Wire Line
-	10600 1200 10600 1250
-$Comp
-L Connector:Conn_01x06_Female J28
-U 1 1 608D8AE7
-P 10350 1250
-F 0 "J28" H 10200 750 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 9850 850 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10350 1250 50  0001 C CNN
-F 3 "~" H 10350 1250 50  0001 C CNN
-	1    10350 1250
-	-1   0    0    1   
-$EndComp
 Text GLabel 10650 1650 0    50   Input ~ 0
 Out1
 Text GLabel 10650 1750 0    50   Input ~ 0

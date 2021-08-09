@@ -581,10 +581,10 @@ NoConn ~ 5000 5900
 Wire Wire Line
 	5000 6000 4550 6000
 $Comp
-L Device:R_POT Time
+L Device:R_POT Time1
 U 1 1 603B4463
 P 2950 7300
-F 0 "Time" V 2835 7300 50  0000 C CNN
+F 0 "Time1" V 2835 7300 50  0000 C CNN
 F 1 "100k" V 2744 7300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2950 7300 50  0001 C CNN
 F 3 "~" H 2950 7300 50  0001 C CNN
@@ -990,10 +990,10 @@ $EndComp
 Wire Wire Line
 	3450 7400 3450 7550
 $Comp
-L Device:R_POT FB
+L Device:R_POT FB3
 U 1 1 6053B0C2
 P 2950 6450
-F 0 "FB" V 2835 6450 50  0000 C CNN
+F 0 "FB3" V 2835 6450 50  0000 C CNN
 F 1 "100k" V 2744 6450 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2950 6450 50  0001 C CNN
 F 3 "~" H 2950 6450 50  0001 C CNN
@@ -1216,10 +1216,10 @@ Wire Wire Line
 Text GLabel 3900 6000 3    50   Input ~ 0
 TimeOut
 $Comp
-L power:GND #PWR?
+L power:GND #PWR027
 U 1 1 60AF3684
 P 2950 7550
-F 0 "#PWR?" H 2950 7300 50  0001 C CNN
+F 0 "#PWR027" H 2950 7300 50  0001 C CNN
 F 1 "GND" H 2955 7377 50  0000 C CNN
 F 2 "" H 2950 7550 50  0001 C CNN
 F 3 "" H 2950 7550 50  0001 C CNN
@@ -1241,10 +1241,10 @@ ToneEchoIn
 Text GLabel 8100 5900 3    50   Input ~ 0
 ToneEchoOut
 $Comp
-L Device:R_POT Tone-echo
+L Device:R_POT Tone-echo1
 U 1 1 6050D3BE
 P 3450 7250
-F 0 "Tone-echo" V 3335 7250 50  0000 C CNN
+F 0 "Tone-echo1" V 3335 7250 50  0000 C CNN
 F 1 "100k" V 3244 7250 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3450 7250 50  0001 C CNN
 F 3 "~" H 3450 7250 50  0001 C CNN
@@ -1308,32 +1308,32 @@ VolOut
 Text GLabel 9400 800  1    50   Input ~ 0
 VolOut
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J32
 U 1 1 60E18D3E
 P 1250 6800
-F 0 "J?" H 1350 6300 50  0000 C CNN
+F 0 "J32" H 1350 6300 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 1350 6400 50  0000 C CNN
-F 2 "" H 1250 6800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1250 6800 50  0001 C CNN
 F 3 "~" H 1250 6800 50  0001 C CNN
 	1    1250 6800
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J?
+L Connector:Conn_01x06_Female J34
 U 1 1 60E19E5C
 P 1800 6800
-F 0 "J?" H 1650 6300 50  0000 L CNN
+F 0 "J34" H 1650 6300 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 1300 6400 50  0000 L CNN
-F 2 "" H 1800 6800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1800 6800 50  0001 C CNN
 F 3 "~" H 1800 6800 50  0001 C CNN
 	1    1800 6800
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR025
 U 1 1 60E6EADC
 P 1050 7000
-F 0 "#PWR?" H 1050 6750 50  0001 C CNN
+F 0 "#PWR025" H 1050 6750 50  0001 C CNN
 F 1 "GND" H 1055 6827 50  0000 C CNN
 F 2 "" H 1050 7000 50  0001 C CNN
 F 3 "" H 1050 7000 50  0001 C CNN
@@ -1341,10 +1341,10 @@ F 3 "" H 1050 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR026
 U 1 1 60E76A16
 P 2000 7000
-F 0 "#PWR?" H 2000 6750 50  0001 C CNN
+F 0 "#PWR026" H 2000 6750 50  0001 C CNN
 F 1 "GND" H 2005 6827 50  0000 C CNN
 F 2 "" H 2000 7000 50  0001 C CNN
 F 3 "" H 2000 7000 50  0001 C CNN
@@ -1352,23 +1352,23 @@ F 3 "" H 2000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Male J?
+L Connector:Conn_01x08_Male J31
 U 1 1 60E98216
 P 1200 5850
-F 0 "J?" H 1400 5250 50  0000 R CNN
+F 0 "J31" H 1400 5250 50  0000 R CNN
 F 1 "Conn_01x08_Male" H 1650 5350 50  0000 R CNN
-F 2 "" H 1200 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1200 5850 50  0001 C CNN
 F 3 "~" H 1200 5850 50  0001 C CNN
 	1    1200 5850
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J?
+L Connector:Conn_01x08_Female J33
 U 1 1 60EA2594
 P 1800 5850
-F 0 "J?" H 1650 5250 50  0000 C CNN
+F 0 "J33" H 1650 5250 50  0000 C CNN
 F 1 "Conn_01x08_Female" H 1650 5350 50  0000 C CNN
-F 2 "" H 1800 5850 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 1800 5850 50  0001 C CNN
 F 3 "~" H 1800 5850 50  0001 C CNN
 	1    1800 5850
 	-1   0    0    1   
