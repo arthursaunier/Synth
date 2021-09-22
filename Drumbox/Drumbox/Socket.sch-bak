@@ -48,7 +48,7 @@ L Connector:AudioJack2_Switch J2
 U 1 1 603536B7
 P 1050 1850
 F 0 "J2" H 1082 2275 50  0000 C CNN
-F 1 "LBonga IN" H 1082 2184 50  0000 C CNN
+F 1 "HBonga IN" H 1082 2184 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1050 2050 50  0001 C CNN
 F 3 "~" H 1050 2050 50  0001 C CNN
 	1    1050 1850
@@ -76,7 +76,7 @@ L Connector:AudioJack2_Switch J8
 U 1 1 603536C7
 P 2000 1100
 F 0 "J8" H 2032 1525 50  0000 C CNN
-F 1 "HBonga IN" H 2032 1434 50  0000 C CNN
+F 1 "LBonga IN" H 2032 1434 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2000 1300 50  0001 C CNN
 F 3 "~" H 2000 1300 50  0001 C CNN
 	1    2000 1100
@@ -1455,7 +1455,7 @@ L Connector:AudioJack2_Switch J16
 U 1 1 605DECF8
 P 1000 5850
 F 0 "J16" H 1032 6275 50  0000 C CNN
-F 1 "LBonga OUT" H 1032 6184 50  0000 C CNN
+F 1 "HBonga OUT" H 1032 6184 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 6050 50  0001 C CNN
 F 3 "~" H 1000 6050 50  0001 C CNN
 	1    1000 5850
@@ -1483,7 +1483,7 @@ L Connector:AudioJack2_Switch J18
 U 1 1 605DED08
 P 1950 5100
 F 0 "J18" H 1982 5525 50  0000 C CNN
-F 1 "HBonga OUT" H 1982 5434 50  0000 C CNN
+F 1 "LBonga OUT" H 1982 5434 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1950 5300 50  0001 C CNN
 F 3 "~" H 1950 5300 50  0001 C CNN
 	1    1950 5100
