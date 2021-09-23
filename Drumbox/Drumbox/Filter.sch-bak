@@ -1480,6 +1480,7 @@ U 1 1 614F978C
 P 9750 4400
 AR Path="/614F978C" Ref="SW?"  Part="1" 
 AR Path="/6029ED90/614F978C" Ref="SW?"  Part="1" 
+AR Path="/60480521/614F978C" Ref="SW?"  Part="1" 
 F 0 "SW?" H 9750 4685 50  0000 C CNN
 F 1 "Fx1" H 9750 4594 50  0000 C CNN
 F 2 "Synth:SW_Toggle_Blue_wSlots" H 9750 4400 50  0001 C CNN
@@ -1491,4 +1492,34 @@ Text GLabel 9950 4300 2    50   Input ~ 0
 Out1
 Text GLabel 9950 4500 2    50   Input ~ 0
 Fx
+Text GLabel 10600 3300 2    50   Input ~ 0
+FilterCV
+$Comp
+L Connector:AudioJack2_Switch J?
+U 1 1 61504951
+P 10250 3300
+F 0 "J?" H 10282 3725 50  0000 C CNN
+F 1 "FilterCV" H 10282 3634 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 10250 3500 50  0001 C CNN
+F 3 "~" H 10250 3500 50  0001 C CNN
+	1    10250 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10450 3200
+NoConn ~ 10450 3400
+Wire Wire Line
+	10450 3100 10550 3100
+$Comp
+L power:GND #PWR?
+U 1 1 6150495A
+P 10550 3100
+F 0 "#PWR?" H 10550 2850 50  0001 C CNN
+F 1 "GND" H 10555 2927 50  0000 C CNN
+F 2 "" H 10550 3100 50  0001 C CNN
+F 3 "" H 10550 3100 50  0001 C CNN
+	1    10550 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10600 3300 10450 3300
 $EndSCHEMATC
