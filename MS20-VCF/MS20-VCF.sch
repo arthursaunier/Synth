@@ -903,90 +903,79 @@ $EndComp
 Wire Wire Line
 	9300 3450 9300 3350
 $Comp
-L Connector:Conn_01x12_Female J2
-U 1 1 609662D7
-P 2350 5200
-F 0 "J2" H 2242 4375 50  0000 C CNN
-F 1 "Conn_01x12_Female" H 2242 4466 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2350 5200 50  0001 C CNN
-F 3 "~" H 2350 5200 50  0001 C CNN
-	1    2350 5200
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+12V #PWR08
 U 1 1 609B47D3
-P 2750 5700
-F 0 "#PWR08" H 2750 5550 50  0001 C CNN
-F 1 "+12V" H 2765 5873 50  0000 C CNN
-F 2 "" H 2750 5700 50  0001 C CNN
-F 3 "" H 2750 5700 50  0001 C CNN
-	1    2750 5700
+P 2850 5900
+F 0 "#PWR08" H 2850 5750 50  0001 C CNN
+F 1 "+12V" H 2865 6073 50  0000 C CNN
+F 2 "" H 2850 5900 50  0001 C CNN
+F 3 "" H 2850 5900 50  0001 C CNN
+	1    2850 5900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+12V #PWR02
 U 1 1 609B8EEB
-P 1450 5700
-F 0 "#PWR02" H 1450 5550 50  0001 C CNN
-F 1 "+12V" H 1465 5873 50  0000 C CNN
-F 2 "" H 1450 5700 50  0001 C CNN
-F 3 "" H 1450 5700 50  0001 C CNN
-	1    1450 5700
+P 1450 5900
+F 0 "#PWR02" H 1450 5750 50  0001 C CNN
+F 1 "+12V" H 1465 6073 50  0000 C CNN
+F 2 "" H 1450 5900 50  0001 C CNN
+F 3 "" H 1450 5900 50  0001 C CNN
+	1    1450 5900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:-12V #PWR07
 U 1 1 609C206D
-P 2750 5400
-F 0 "#PWR07" H 2750 5500 50  0001 C CNN
-F 1 "-12V" H 2765 5573 50  0000 C CNN
-F 2 "" H 2750 5400 50  0001 C CNN
-F 3 "" H 2750 5400 50  0001 C CNN
-	1    2750 5400
+P 2850 5600
+F 0 "#PWR07" H 2850 5700 50  0001 C CNN
+F 1 "-12V" H 2865 5773 50  0000 C CNN
+F 2 "" H 2850 5600 50  0001 C CNN
+F 3 "" H 2850 5600 50  0001 C CNN
+	1    2850 5600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:-12V #PWR01
 U 1 1 609C6480
-P 1450 5400
-F 0 "#PWR01" H 1450 5500 50  0001 C CNN
-F 1 "-12V" H 1465 5573 50  0000 C CNN
-F 2 "" H 1450 5400 50  0001 C CNN
-F 3 "" H 1450 5400 50  0001 C CNN
-	1    1450 5400
+P 1450 5600
+F 0 "#PWR01" H 1450 5700 50  0001 C CNN
+F 1 "-12V" H 1465 5773 50  0000 C CNN
+F 2 "" H 1450 5600 50  0001 C CNN
+F 3 "" H 1450 5600 50  0001 C CNN
+	1    1450 5600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2550 5400 2750 5400
+	2650 5600 2850 5600
 Wire Wire Line
-	2750 5700 2550 5700
+	2850 5900 2650 5900
 Wire Wire Line
-	1650 5700 1450 5700
+	1650 5900 1450 5900
 $Comp
 L power:GND #PWR03
 U 1 1 609F1476
-P 1600 5550
-F 0 "#PWR03" H 1600 5300 50  0001 C CNN
-F 1 "GND" H 1605 5377 50  0000 C CNN
-F 2 "" H 1600 5550 50  0001 C CNN
-F 3 "" H 1600 5550 50  0001 C CNN
-	1    1600 5550
+P 1600 5750
+F 0 "#PWR03" H 1600 5500 50  0001 C CNN
+F 1 "GND" H 1605 5577 50  0000 C CNN
+F 2 "" H 1600 5750 50  0001 C CNN
+F 3 "" H 1600 5750 50  0001 C CNN
+	1    1600 5750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1650 5550 1600 5550
+	1650 5750 1600 5750
 Wire Wire Line
-	2550 5550 2600 5550
+	2650 5750 2700 5750
 $Comp
 L power:GND #PWR06
 U 1 1 60A05FC0
-P 2600 5550
-F 0 "#PWR06" H 2600 5300 50  0001 C CNN
-F 1 "GND" H 2605 5377 50  0000 C CNN
-F 2 "" H 2600 5550 50  0001 C CNN
-F 3 "" H 2600 5550 50  0001 C CNN
-	1    2600 5550
+P 2700 5750
+F 0 "#PWR06" H 2700 5500 50  0001 C CNN
+F 1 "GND" H 2705 5577 50  0000 C CNN
+F 2 "" H 2700 5750 50  0001 C CNN
+F 3 "" H 2700 5750 50  0001 C CNN
+	1    2700 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -997,17 +986,6 @@ Wire Wire Line
 	5900 4850 5900 5750
 Wire Wire Line
 	5900 5750 6400 5750
-$Comp
-L Connector:Conn_01x12_Male J1
-U 1 1 609662D1
-P 1850 5200
-F 0 "J1" H 2000 4350 50  0000 R CNN
-F 1 "Conn_01x12_Male" H 2250 4450 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 1850 5200 50  0001 C CNN
-F 3 "~" H 1850 5200 50  0001 C CNN
-	1    1850 5200
-	-1   0    0    1   
-$EndComp
 Text Label 5800 4850 2    50   ~ 0
 Cutoff
 Wire Wire Line
@@ -1064,13 +1042,11 @@ Text Label 10000 2300 0    50   ~ 0
 FilterOut
 Text Label 6450 4600 2    50   ~ 0
 CVIn
-Text Label 1650 4800 2    50   ~ 0
-CVIn
 Text Label 1650 5000 2    50   ~ 0
 FilterOut
 Text Label 1650 5100 2    50   ~ 0
 Cutoff
-Text Label 1650 5200 2    50   ~ 0
+Text Label 1650 5400 2    50   ~ 0
 ResOut
 Text Label 1650 4700 2    50   ~ 0
 HPass
@@ -1080,36 +1056,30 @@ Text Label 1650 4900 2    50   ~ 0
 Out1
 Text Label 2450 3050 0    50   ~ 0
 FilterIn
-Text Label 2550 4800 0    50   ~ 0
-CVIn
-Text Label 2550 5000 0    50   ~ 0
+Text Label 2650 5000 0    50   ~ 0
 FilterOut
-Text Label 2550 5100 0    50   ~ 0
+Text Label 2650 5100 0    50   ~ 0
 Cutoff
-Text Label 2550 5200 0    50   ~ 0
+Text Label 2650 5400 0    50   ~ 0
 ResOut
-Text Label 2550 4700 0    50   ~ 0
+Text Label 2650 4700 0    50   ~ 0
 HPass
-Text Label 2550 4600 0    50   ~ 0
+Text Label 2650 4600 0    50   ~ 0
 LPass
-Text Label 2550 4900 0    50   ~ 0
+Text Label 2650 4900 0    50   ~ 0
 Out1
 Wire Wire Line
-	2550 5500 2550 5550
-Connection ~ 2550 5550
+	2650 5700 2650 5750
+Connection ~ 2650 5750
 Wire Wire Line
-	2550 5550 2550 5600
+	2650 5750 2650 5800
 Wire Wire Line
-	1650 5400 1450 5400
+	1650 5600 1450 5600
 Wire Wire Line
-	1650 5500 1650 5550
-Connection ~ 1650 5550
+	1650 5700 1650 5750
+Connection ~ 1650 5750
 Wire Wire Line
-	1650 5550 1650 5600
-Text Label 2550 5300 0    50   ~ 0
-FilterIn
-Text Label 1650 5300 2    50   ~ 0
-FilterIn
+	1650 5750 1650 5800
 Wire Wire Line
 	7350 3700 7550 3700
 Wire Wire Line
@@ -1160,14 +1130,14 @@ F 3 "" H 5600 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x10_Male J3
+L Connector:Conn_01x10_Male J5
 U 1 1 614BA8B6
 P 4300 6950
-AR Path="/614BA8B6" Ref="J3"  Part="1" 
+AR Path="/614BA8B6" Ref="J5"  Part="1" 
 AR Path="/6029ED90/614BA8B6" Ref="J?"  Part="1" 
 AR Path="/6029FC1F/614BA8B6" Ref="J?"  Part="1" 
 AR Path="/60480521/614BA8B6" Ref="J?"  Part="1" 
-F 0 "J3" H 4408 7531 50  0000 C CNN
+F 0 "J5" H 4408 7531 50  0000 C CNN
 F 1 "Power Input" H 4408 7440 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4300 6950 50  0001 C CNN
 F 3 "~" H 4300 6950 50  0001 C CNN
@@ -1287,8 +1257,6 @@ F 3 "~" H 5000 7450 50  0001 C CNN
 	1    5000 7450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4650 7450 4900 7450
 Connection ~ 4650 7450
 Wire Wire Line
 	5100 7450 5350 7450
@@ -1296,8 +1264,6 @@ Connection ~ 5350 7450
 Wire Wire Line
 	5100 6550 5350 6550
 Connection ~ 5350 6550
-Wire Wire Line
-	4900 6550 4650 6550
 Connection ~ 4650 6550
 $Comp
 L power:GND #PWR017
@@ -1390,94 +1356,6 @@ F 3 "" H 3600 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM13700 U?
-U 5 1 614D9C0A
-P 10200 1300
-AR Path="/6029FC1F/614D9C0A" Ref="U?"  Part="5" 
-AR Path="/60480521/614D9C0A" Ref="U?"  Part="5" 
-AR Path="/614D9C0A" Ref="U1"  Part="5" 
-F 0 "U1" H 10158 1346 50  0000 L CNN
-F 1 "LM13700" H 10158 1255 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 9900 1325 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9900 1325 50  0001 C CNN
-	5    10200 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR033
-U 1 1 614D9C10
-P 10100 1800
-AR Path="/614D9C10" Ref="#PWR033"  Part="1" 
-AR Path="/6029ED90/614D9C10" Ref="#PWR?"  Part="1" 
-AR Path="/6029FC1F/614D9C10" Ref="#PWR?"  Part="1" 
-AR Path="/60480521/614D9C10" Ref="#PWR?"  Part="1" 
-F 0 "#PWR033" H 10100 1900 50  0001 C CNN
-F 1 "-12V" H 10115 1973 50  0000 C CNN
-F 2 "" H 10100 1800 50  0001 C CNN
-F 3 "" H 10100 1800 50  0001 C CNN
-	1    10100 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12V #PWR032
-U 1 1 614D9C16
-P 10100 800
-AR Path="/614D9C16" Ref="#PWR032"  Part="1" 
-AR Path="/6029ED90/614D9C16" Ref="#PWR?"  Part="1" 
-AR Path="/6029FC1F/614D9C16" Ref="#PWR?"  Part="1" 
-AR Path="/60480521/614D9C16" Ref="#PWR?"  Part="1" 
-F 0 "#PWR032" H 10100 650 50  0001 C CNN
-F 1 "+12V" H 10115 973 50  0000 C CNN
-F 2 "" H 10100 800 50  0001 C CNN
-F 3 "" H 10100 800 50  0001 C CNN
-	1    10100 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR036
-U 1 1 614EA73E
-P 10600 1800
-AR Path="/614EA73E" Ref="#PWR036"  Part="1" 
-AR Path="/6029ED90/614EA73E" Ref="#PWR?"  Part="1" 
-AR Path="/6029FC1F/614EA73E" Ref="#PWR?"  Part="1" 
-AR Path="/60480521/614EA73E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR036" H 10600 1900 50  0001 C CNN
-F 1 "-12V" H 10615 1973 50  0000 C CNN
-F 2 "" H 10600 1800 50  0001 C CNN
-F 3 "" H 10600 1800 50  0001 C CNN
-	1    10600 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12V #PWR035
-U 1 1 614EA744
-P 10600 800
-AR Path="/614EA744" Ref="#PWR035"  Part="1" 
-AR Path="/6029ED90/614EA744" Ref="#PWR?"  Part="1" 
-AR Path="/6029FC1F/614EA744" Ref="#PWR?"  Part="1" 
-AR Path="/60480521/614EA744" Ref="#PWR?"  Part="1" 
-F 0 "#PWR035" H 10600 650 50  0001 C CNN
-F 1 "+12V" H 10615 973 50  0000 C CNN
-F 2 "" H 10600 800 50  0001 C CNN
-F 3 "" H 10600 800 50  0001 C CNN
-	1    10600 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL072 U?
-U 3 1 614EA74A
-P 10700 1300
-AR Path="/6029FC1F/614EA74A" Ref="U?"  Part="3" 
-AR Path="/60480521/614EA74A" Ref="U?"  Part="3" 
-AR Path="/614EA74A" Ref="U2"  Part="3" 
-F 0 "U2" H 10658 1346 50  0000 L CNN
-F 1 "TL072" H 10658 1255 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 10700 1300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10700 1300 50  0001 C CNN
-	3    10700 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_SPDT SW2
 U 1 1 614F978C
 P 1950 4000
@@ -1494,10 +1372,10 @@ $EndComp
 Text GLabel 2150 4100 2    50   Input ~ 0
 Filter2In
 $Comp
-L Connector:AudioJack2_Switch J4
+L Connector:AudioJack2_Switch J6
 U 1 1 61504951
 P 8900 4650
-F 0 "J4" H 8932 5075 50  0000 C CNN
+F 0 "J6" H 8932 5075 50  0000 C CNN
 F 1 "FilterCV1" H 8932 4984 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 8900 4850 50  0001 C CNN
 F 3 "~" H 8900 4850 50  0001 C CNN
@@ -1521,75 +1399,15 @@ F 3 "" H 9200 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 4650 9100 4650
-$Comp
-L Device:CP1_Small C9
-U 1 1 615072D4
-P 10600 900
-AR Path="/615072D4" Ref="C9"  Part="1" 
-AR Path="/6029ED90/615072D4" Ref="C?"  Part="1" 
-AR Path="/6029FC1F/615072D4" Ref="C?"  Part="1" 
-AR Path="/60480521/615072D4" Ref="C?"  Part="1" 
-F 0 "C9" H 10691 946 50  0000 L CNN
-F 1 "10µ" H 10691 855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10600 900 50  0001 C CNN
-F 3 "~" H 10600 900 50  0001 C CNN
-	1    10600 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C7
-U 1 1 6150EBD5
-P 10100 900
-AR Path="/6150EBD5" Ref="C7"  Part="1" 
-AR Path="/6029ED90/6150EBD5" Ref="C?"  Part="1" 
-AR Path="/6029FC1F/6150EBD5" Ref="C?"  Part="1" 
-AR Path="/60480521/6150EBD5" Ref="C?"  Part="1" 
-F 0 "C7" H 10191 946 50  0000 L CNN
-F 1 "10µ" H 10191 855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10100 900 50  0001 C CNN
-F 3 "~" H 10100 900 50  0001 C CNN
-	1    10100 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C8
-U 1 1 61526DDC
-P 10100 1700
-AR Path="/61526DDC" Ref="C8"  Part="1" 
-AR Path="/6029ED90/61526DDC" Ref="C?"  Part="1" 
-AR Path="/6029FC1F/61526DDC" Ref="C?"  Part="1" 
-AR Path="/60480521/61526DDC" Ref="C?"  Part="1" 
-F 0 "C8" H 10191 1746 50  0000 L CNN
-F 1 "10µ" H 10191 1655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10100 1700 50  0001 C CNN
-F 3 "~" H 10100 1700 50  0001 C CNN
-	1    10100 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C10
-U 1 1 6152E7AD
-P 10600 1700
-AR Path="/6152E7AD" Ref="C10"  Part="1" 
-AR Path="/6029ED90/6152E7AD" Ref="C?"  Part="1" 
-AR Path="/6029FC1F/6152E7AD" Ref="C?"  Part="1" 
-AR Path="/60480521/6152E7AD" Ref="C?"  Part="1" 
-F 0 "C10" H 10691 1746 50  0000 L CNN
-F 1 "10µ" H 10691 1655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10600 1700 50  0001 C CNN
-F 3 "~" H 10600 1700 50  0001 C CNN
-	1    10600 1700
-	1    0    0    -1  
-$EndComp
 Text Label 1750 4000 2    50   ~ 0
 FilterOut
 Text Label 9250 4650 0    50   ~ 0
 CVIn
 $Comp
-L Connector:AudioJack2_Switch J6
+L Connector:AudioJack2_Switch J8
 U 1 1 615095A8
 P 9900 4650
-F 0 "J6" H 9932 5075 50  0000 C CNN
+F 0 "J8" H 9932 5075 50  0000 C CNN
 F 1 "FilterOut1" H 9932 4984 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9900 4850 50  0001 C CNN
 F 3 "~" H 9900 4850 50  0001 C CNN
@@ -1616,10 +1434,10 @@ Wire Wire Line
 Text Label 2150 3900 0    50   ~ 0
 JackOut
 $Comp
-L Connector:AudioJack2_Switch J5
+L Connector:AudioJack2_Switch J7
 U 1 1 615283DF
 P 8900 5350
-F 0 "J5" H 8932 5775 50  0000 C CNN
+F 0 "J7" H 8932 5775 50  0000 C CNN
 F 1 "FilterIn1" H 8932 5684 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 8900 5550 50  0001 C CNN
 F 3 "~" H 8900 5550 50  0001 C CNN
@@ -1653,4 +1471,172 @@ U 615732ED
 F0 "Filtre2" 50
 F1 "Filtre2.sch" 50
 $EndSheet
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 615391BD
+P 1850 4800
+F 0 "J1" H 1700 5200 50  0000 L CNN
+F 1 "Conn_CircuitBoard" H 1400 5100 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1850 4800 50  0001 C CNN
+F 3 "~" H 1850 4800 50  0001 C CNN
+	1    1850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 6153BC58
+P 2450 4800
+F 0 "J3" H 2558 5181 50  0000 C CNN
+F 1 "Conn_JackBoard" H 2558 5090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2450 4800 50  0001 C CNN
+F 3 "~" H 2450 4800 50  0001 C CNN
+	1    2450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J4
+U 1 1 61594344
+P 2450 5600
+F 0 "J4" H 2558 5981 50  0000 C CNN
+F 1 "Conn_JackBoard" H 2558 5890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2450 5600 50  0001 C CNN
+F 3 "~" H 2450 5600 50  0001 C CNN
+	1    2450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J2
+U 1 1 6157113E
+P 1850 5600
+F 0 "J2" H 1700 6000 50  0000 L CNN
+F 1 "Conn_CircuitBoard" H 1400 5900 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1850 5600 50  0001 C CNN
+F 3 "~" H 1850 5600 50  0001 C CNN
+	1    1850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U?
+U 5 1 616CC0DE
+P 10350 1350
+AR Path="/6029FC1F/616CC0DE" Ref="U?"  Part="5" 
+AR Path="/60480521/616CC0DE" Ref="U?"  Part="5" 
+AR Path="/616CC0DE" Ref="U1"  Part="5" 
+AR Path="/615732ED/616CC0DE" Ref="U?"  Part="5" 
+F 0 "U1" H 10308 1396 50  0000 L CNN
+F 1 "LM13700" H 10308 1305 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 10050 1375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 10050 1375 50  0001 C CNN
+	5    10350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0101
+U 1 1 616CC0E4
+P 10500 1950
+AR Path="/616CC0E4" Ref="#PWR0101"  Part="1" 
+AR Path="/6029ED90/616CC0E4" Ref="#PWR?"  Part="1" 
+AR Path="/6029FC1F/616CC0E4" Ref="#PWR?"  Part="1" 
+AR Path="/60480521/616CC0E4" Ref="#PWR?"  Part="1" 
+AR Path="/615732ED/616CC0E4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 10500 2050 50  0001 C CNN
+F 1 "-12V" H 10515 2123 50  0000 C CNN
+F 2 "" H 10500 1950 50  0001 C CNN
+F 3 "" H 10500 1950 50  0001 C CNN
+	1    10500 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0102
+U 1 1 616CC0EA
+P 10500 750
+AR Path="/616CC0EA" Ref="#PWR0102"  Part="1" 
+AR Path="/6029ED90/616CC0EA" Ref="#PWR?"  Part="1" 
+AR Path="/6029FC1F/616CC0EA" Ref="#PWR?"  Part="1" 
+AR Path="/60480521/616CC0EA" Ref="#PWR?"  Part="1" 
+AR Path="/615732ED/616CC0EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0102" H 10500 600 50  0001 C CNN
+F 1 "+12V" H 10515 923 50  0000 C CNN
+F 2 "" H 10500 750 50  0001 C CNN
+F 3 "" H 10500 750 50  0001 C CNN
+	1    10500 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 3 1 616CC0F0
+P 10850 1350
+AR Path="/6029FC1F/616CC0F0" Ref="U?"  Part="3" 
+AR Path="/60480521/616CC0F0" Ref="U?"  Part="3" 
+AR Path="/616CC0F0" Ref="U2"  Part="3" 
+AR Path="/615732ED/616CC0F0" Ref="U?"  Part="3" 
+F 0 "U2" H 10808 1396 50  0000 L CNN
+F 1 "TL072" H 10808 1305 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 10850 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10850 1350 50  0001 C CNN
+	3    10850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C7
+U 1 1 616CC0F6
+P 10500 900
+AR Path="/616CC0F6" Ref="C7"  Part="1" 
+AR Path="/6029ED90/616CC0F6" Ref="C?"  Part="1" 
+AR Path="/6029FC1F/616CC0F6" Ref="C?"  Part="1" 
+AR Path="/60480521/616CC0F6" Ref="C?"  Part="1" 
+AR Path="/615732ED/616CC0F6" Ref="C?"  Part="1" 
+F 0 "C7" H 10591 946 50  0000 L CNN
+F 1 "0.1µ" H 10591 855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10500 900 50  0001 C CNN
+F 3 "~" H 10500 900 50  0001 C CNN
+	1    10500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C8
+U 1 1 616CC0FC
+P 10500 1800
+AR Path="/616CC0FC" Ref="C8"  Part="1" 
+AR Path="/6029ED90/616CC0FC" Ref="C?"  Part="1" 
+AR Path="/6029FC1F/616CC0FC" Ref="C?"  Part="1" 
+AR Path="/60480521/616CC0FC" Ref="C?"  Part="1" 
+AR Path="/615732ED/616CC0FC" Ref="C?"  Part="1" 
+F 0 "C8" H 10591 1846 50  0000 L CNN
+F 1 "0.1µ" H 10591 1755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10500 1800 50  0001 C CNN
+F 3 "~" H 10500 1800 50  0001 C CNN
+	1    10500 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 1650 10750 1700
+Wire Wire Line
+	10750 1700 10500 1700
+Wire Wire Line
+	10250 1650 10250 1700
+Wire Wire Line
+	10250 1700 10500 1700
+Connection ~ 10500 1700
+Wire Wire Line
+	10500 1900 10500 1950
+Wire Wire Line
+	10750 1050 10750 1000
+Wire Wire Line
+	10750 1000 10500 1000
+Wire Wire Line
+	10500 1000 10250 1000
+Wire Wire Line
+	10250 1000 10250 1050
+Connection ~ 10500 1000
+Wire Wire Line
+	10500 800  10500 750 
+Wire Wire Line
+	4650 6550 4900 6550
+Wire Wire Line
+	4650 7450 4900 7450
+NoConn ~ 2650 5500
+NoConn ~ 1650 5500
+NoConn ~ 2650 4800
+NoConn ~ 1650 4800
 $EndSCHEMATC

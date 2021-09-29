@@ -1,4 +1,4 @@
-19212807876425994
+19097164955753863
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50875,6 +50875,55 @@ emi filter
 0
 5
 5
+Font-Image
+cv
+
+
+0
+0
+0
+Font-Image
+gain
+
+
+0
+0
+0
+Font-Image
+input
+
+
+0
+0
+0
+Font-Image
+output
+
+
+0
+0
+0
+Font-Image
+stupid
+
+
+0
+0
+0
+Font-Image
+tone
+
+
+0
+0
+0
+Font-Image
+volume
+
+
+0
+0
+0
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -72568,6 +72617,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Perso
+RSPro_3.5mm_Vertical_Jack
+3.5mm Vertical Jack from RS pro
+
+0
+4
+4
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -77720,6 +77776,20 @@ Logo WEEE
 0
 0
 0
+Synth
+SW_DPDT_Toggle
+
+
+0
+6
+6
+Synth
+SW_Toggle_Blue_wSlots
+SW Toggle
+SW Toggle
+0
+3
+3
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
