@@ -1042,10 +1042,6 @@ Text Label 10000 2300 0    50   ~ 0
 FilterOut
 Text Label 6450 4600 2    50   ~ 0
 CVIn
-Text Label 1650 4800 2    50   ~ 0
-CVIn
-Text Label 1650 5000 2    50   ~ 0
-FilterOut
 Text Label 1650 5100 2    50   ~ 0
 Cutoff
 Text Label 1650 5400 2    50   ~ 0
@@ -1058,10 +1054,6 @@ Text Label 1650 4900 2    50   ~ 0
 Out1
 Text Label 2450 3050 0    50   ~ 0
 FilterIn
-Text Label 2650 4800 0    50   ~ 0
-CVIn
-Text Label 2650 5000 0    50   ~ 0
-FilterOut
 Text Label 2650 5100 0    50   ~ 0
 Cutoff
 Text Label 2650 5400 0    50   ~ 0
@@ -1641,4 +1633,8 @@ Wire Wire Line
 	4650 7450 4900 7450
 NoConn ~ 2650 5500
 NoConn ~ 1650 5500
+NoConn ~ 2650 4800
+NoConn ~ 1650 4800
+NoConn ~ 2650 5000
+NoConn ~ 1650 5000
 $EndSCHEMATC

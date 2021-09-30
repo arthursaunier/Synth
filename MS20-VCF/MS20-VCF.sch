@@ -155,6 +155,7 @@ F 0 "SW1" H 1900 3535 50  0000 C CNN
 F 1 "Hpass/Lpass Switch" H 1900 3444 50  0000 C CNN
 F 2 "Synth:SW_DPDT_Toggle" H 1900 3250 50  0001 C CNN
 F 3 "~" H 1900 3250 50  0001 C CNN
+F 4 "DPDT Switch, On-Off-On " H 1900 3050 50  0001 C CNN "Comment "
 	1    1900 3050
 	1    0    0    -1  
 $EndComp
@@ -1042,8 +1043,6 @@ Text Label 10000 2300 0    50   ~ 0
 FilterOut
 Text Label 6450 4600 2    50   ~ 0
 CVIn
-Text Label 1650 5000 2    50   ~ 0
-FilterOut
 Text Label 1650 5100 2    50   ~ 0
 Cutoff
 Text Label 1650 5400 2    50   ~ 0
@@ -1056,8 +1055,6 @@ Text Label 1650 4900 2    50   ~ 0
 Out1
 Text Label 2450 3050 0    50   ~ 0
 FilterIn
-Text Label 2650 5000 0    50   ~ 0
-FilterOut
 Text Label 2650 5100 0    50   ~ 0
 Cutoff
 Text Label 2650 5400 0    50   ~ 0
@@ -1639,4 +1636,6 @@ NoConn ~ 2650 5500
 NoConn ~ 1650 5500
 NoConn ~ 2650 4800
 NoConn ~ 1650 4800
+NoConn ~ 2650 5000
+NoConn ~ 1650 5000
 $EndSCHEMATC
