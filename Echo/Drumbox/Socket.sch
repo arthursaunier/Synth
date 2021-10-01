@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -136,32 +136,32 @@ In4
 $Comp
 L Connector:AudioJack2_Switch J7
 U 1 1 6035372E
-P 1000 7200
-F 0 "J7" H 1032 7625 50  0000 C CNN
-F 1 "Mono-Out" H 1032 7534 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 7400 50  0001 C CNN
-F 3 "~" H 1000 7400 50  0001 C CNN
-	1    1000 7200
+P 1000 3250
+F 0 "J7" H 1032 3675 50  0000 C CNN
+F 1 "Mono-Out" H 1032 3584 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 3450 50  0001 C CNN
+F 3 "~" H 1000 3450 50  0001 C CNN
+	1    1000 3250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1200 7100
-NoConn ~ 1200 7300
+NoConn ~ 1200 3150
+NoConn ~ 1200 3350
 Wire Wire Line
-	1200 7000 1300 7000
+	1200 3050 1300 3050
 $Comp
 L power:GND #PWR0128
 U 1 1 60353737
-P 1300 7000
-F 0 "#PWR0128" H 1300 6750 50  0001 C CNN
-F 1 "GND" H 1305 6827 50  0000 C CNN
-F 2 "" H 1300 7000 50  0001 C CNN
-F 3 "" H 1300 7000 50  0001 C CNN
-	1    1300 7000
+P 1300 3050
+F 0 "#PWR0128" H 1300 2800 50  0001 C CNN
+F 1 "GND" H 1305 2877 50  0000 C CNN
+F 2 "" H 1300 3050 50  0001 C CNN
+F 3 "" H 1300 3050 50  0001 C CNN
+	1    1300 3050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1350 7200 1200 7200
-Text GLabel 1350 7200 2    50   Input ~ 0
+	1350 3250 1200 3250
+Text GLabel 1350 3250 2    50   Input ~ 0
 OutMono
 $Comp
 L Device:R R46
@@ -278,6 +278,88 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4000 1350 50  0001 C CNN
 	1    3950 1150
 	1    0    0    -1  
 $EndComp
+Text GLabel 9500 3000 0    50   Input ~ 0
+Fx1
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 60728795
+P 9700 3000
+AR Path="/60728795" Ref="SW?"  Part="1" 
+AR Path="/6029ED90/60728795" Ref="SW7"  Part="1" 
+F 0 "SW7" H 9700 3285 50  0000 C CNN
+F 1 "Fx1" H 9700 3194 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 9700 3000 50  0001 C CNN
+F 3 "~" H 9700 3000 50  0001 C CNN
+	1    9700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 6072879C
+P 10700 3000
+AR Path="/6072879C" Ref="SW?"  Part="1" 
+AR Path="/6029ED90/6072879C" Ref="SW10"  Part="1" 
+F 0 "SW10" H 10700 3285 50  0000 C CNN
+F 1 "Fx2" H 10700 3194 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 10700 3000 50  0001 C CNN
+F 3 "~" H 10700 3000 50  0001 C CNN
+	1    10700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 607287A3
+P 9700 3550
+AR Path="/607287A3" Ref="SW?"  Part="1" 
+AR Path="/6029ED90/607287A3" Ref="SW8"  Part="1" 
+F 0 "SW8" H 9700 3835 50  0000 C CNN
+F 1 "Fx3" H 9700 3744 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 9700 3550 50  0001 C CNN
+F 3 "~" H 9700 3550 50  0001 C CNN
+	1    9700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 607287AA
+P 10700 3550
+AR Path="/607287AA" Ref="SW?"  Part="1" 
+AR Path="/6029ED90/607287AA" Ref="SW11"  Part="1" 
+F 0 "SW11" H 10700 3835 50  0000 C CNN
+F 1 "Fx4" H 10700 3744 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 10700 3550 50  0001 C CNN
+F 3 "~" H 10700 3550 50  0001 C CNN
+	1    10700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 607287B0
+P 9700 4100
+AR Path="/607287B0" Ref="SW?"  Part="1" 
+AR Path="/6029ED90/607287B0" Ref="SW9"  Part="1" 
+F 0 "SW9" H 9700 4385 50  0000 C CNN
+F 1 "Fx5" H 9700 4294 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 9700 4100 50  0001 C CNN
+F 3 "~" H 9700 4100 50  0001 C CNN
+	1    9700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 607287B6
+P 10700 4100
+AR Path="/607287B6" Ref="SW?"  Part="1" 
+AR Path="/6029ED90/607287B6" Ref="SW12"  Part="1" 
+F 0 "SW12" H 10700 4385 50  0000 C CNN
+F 1 "Fx6" H 10700 4294 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 10700 4100 50  0001 C CNN
+F 3 "~" H 10700 4100 50  0001 C CNN
+	1    10700 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 10050 2650 0    50   ~ 0
+FX switches
 Wire Notes Line
 	2900 500  2900 7750
 Text Notes 5500 700  0    50   ~ 0
@@ -361,6 +443,28 @@ F 3 "~" H 4550 3450 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	9150 4350 9150 500 
+Text GLabel 10900 3450 2    50   Input ~ 0
+Out4
+Text GLabel 9900 3450 2    50   Input ~ 0
+Out3
+Text GLabel 10900 2900 2    50   Input ~ 0
+Out2
+Text GLabel 9900 2900 2    50   Input ~ 0
+Out1
+Text GLabel 10500 3000 0    50   Input ~ 0
+Fx2
+Text GLabel 9500 3550 0    50   Input ~ 0
+Fx3
+Text GLabel 10500 3550 0    50   Input ~ 0
+Fx4
+Text GLabel 9500 4100 0    50   Input ~ 0
+Fx5
+Text GLabel 10500 4100 0    50   Input ~ 0
+Fx6
+Text GLabel 9900 4000 2    50   Input ~ 0
+Out5
+Text GLabel 10900 4000 2    50   Input ~ 0
+Out6
 $Comp
 L Connector:AudioJack2_Switch J3
 U 1 1 6033BAAE
@@ -570,8 +674,20 @@ Wire Wire Line
 Connection ~ 7350 1150
 Wire Wire Line
 	7350 1150 7400 1150
+Text GLabel 9900 3100 2    50   Input ~ 0
+Fx
 Text GLabel 9700 1650 0    50   Input ~ 0
 FilterOut
+Text GLabel 10900 3100 2    50   Input ~ 0
+Fx
+Text GLabel 9900 3650 2    50   Input ~ 0
+Fx
+Text GLabel 9900 4200 2    50   Input ~ 0
+Fx
+Text GLabel 10900 3650 2    50   Input ~ 0
+Fx
+Text GLabel 10900 4200 2    50   Input ~ 0
+Fx
 $Comp
 L Device:C_Small C37
 U 1 1 6050318E
@@ -628,8 +744,136 @@ $EndComp
 Connection ~ 3650 1400
 Wire Wire Line
 	3650 1400 3950 1400
+$Comp
+L Connector:AudioJack2_Switch J4
+U 1 1 60535048
+P 2000 3250
+F 0 "J4" H 2032 3675 50  0000 C CNN
+F 1 "Aux-IN" H 2032 3584 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2000 3450 50  0001 C CNN
+F 3 "~" H 2000 3450 50  0001 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2200 3150
+NoConn ~ 2200 3350
+Wire Wire Line
+	2200 3050 2300 3050
+$Comp
+L power:GND #PWR0111
+U 1 1 60535051
+P 2300 3050
+F 0 "#PWR0111" H 2300 2800 50  0001 C CNN
+F 1 "GND" H 2305 2877 50  0000 C CNN
+F 2 "" H 2300 3050 50  0001 C CNN
+F 3 "" H 2300 3050 50  0001 C CNN
+	1    2300 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 3250 2200 3250
+Text GLabel 2350 3250 2    50   Input ~ 0
+AuxIn
+Text GLabel 3400 5000 0    50   Input ~ 0
+Mute1
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 606AE2B1
+P 3600 5000
+F 0 "SW1" H 3600 5285 50  0000 C CNN
+F 1 "Mute-1" H 3600 5194 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 5000 50  0001 C CNN
+F 3 "~" H 3600 5000 50  0001 C CNN
+	1    3600 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 5600 0    50   Input ~ 0
+Mute2
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 606AE2C1
+P 3600 5600
+F 0 "SW2" H 3600 5885 50  0000 C CNN
+F 1 "Mute-2" H 3600 5794 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 5600 50  0001 C CNN
+F 3 "~" H 3600 5600 50  0001 C CNN
+	1    3600 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 6200 0    50   Input ~ 0
+Mute3
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 606AE2D1
+P 3600 6200
+F 0 "SW3" H 3600 6485 50  0000 C CNN
+F 1 "Mute-3" H 3600 6394 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 6200 50  0001 C CNN
+F 3 "~" H 3600 6200 50  0001 C CNN
+	1    3600 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 6800 0    50   Input ~ 0
+Mute4
+$Comp
+L Switch:SW_SPDT SW4
+U 1 1 606AE2E1
+P 3600 6800
+F 0 "SW4" H 3600 7085 50  0000 C CNN
+F 1 "Mute-4" H 3600 6994 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 3600 6800 50  0001 C CNN
+F 3 "~" H 3600 6800 50  0001 C CNN
+	1    3600 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 5000 0    50   Input ~ 0
+Mute5
+$Comp
+L Switch:SW_SPDT SW5
+U 1 1 606AE2F1
+P 4600 5000
+F 0 "SW5" H 4600 5285 50  0000 C CNN
+F 1 "Mute-5" H 4600 5194 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 4600 5000 50  0001 C CNN
+F 3 "~" H 4600 5000 50  0001 C CNN
+	1    4600 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 5600 0    50   Input ~ 0
+Mute6
+$Comp
+L Switch:SW_SPDT SW6
+U 1 1 606AE301
+P 4600 5600
+F 0 "SW6" H 4600 5885 50  0000 C CNN
+F 1 "Mute-6" H 4600 5794 50  0000 C CNN
+F 2 "Synth:SW_Toggle_Blue_wSlots" H 4600 5600 50  0001 C CNN
+F 3 "~" H 4600 5600 50  0001 C CNN
+	1    4600 5600
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 4600 0    50   ~ 0
+Mute switches
 Wire Notes Line
 	500  4350 11200 4350
+NoConn ~ 3800 6300
+NoConn ~ 3800 6900
+NoConn ~ 3800 5700
+NoConn ~ 4800 5700
+NoConn ~ 3800 5100
+NoConn ~ 4800 5100
+Text GLabel 3800 4900 2    50   Input ~ 0
+Fx1
+Text GLabel 3800 6100 2    50   Input ~ 0
+Fx3
+Text GLabel 3800 5500 2    50   Input ~ 0
+Fx2
+Text GLabel 4800 4900 2    50   Input ~ 0
+Fx5
+Text GLabel 4800 5500 2    50   Input ~ 0
+Fx6
+Text GLabel 3800 6700 2    50   Input ~ 0
+Fx4
 Text GLabel 9000 5900 2    50   Input ~ 0
 Mute4
 Text GLabel 9600 4950 2    50   Input ~ 0
@@ -1148,6 +1392,36 @@ F 3 "~" H 9450 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 1150 8350 1150
+Text GLabel 1350 4000 2    50   Input ~ 0
+FilterCV
+$Comp
+L Connector:AudioJack2_Switch J5
+U 1 1 6042C235
+P 1000 4000
+F 0 "J5" H 1032 4425 50  0000 C CNN
+F 1 "FilterCV" H 1032 4334 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1000 4200 50  0001 C CNN
+F 3 "~" H 1000 4200 50  0001 C CNN
+	1    1000 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1200 3900
+NoConn ~ 1200 4100
+Wire Wire Line
+	1200 3800 1300 3800
+$Comp
+L power:GND #PWR0135
+U 1 1 6042C23E
+P 1300 3800
+F 0 "#PWR0135" H 1300 3550 50  0001 C CNN
+F 1 "GND" H 1305 3627 50  0000 C CNN
+F 2 "" H 1300 3800 50  0001 C CNN
+F 3 "" H 1300 3800 50  0001 C CNN
+	1    1300 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 4000 1200 4000
 $Comp
 L Connector:AudioJack2_Switch J15
 U 1 1 605DECE7
