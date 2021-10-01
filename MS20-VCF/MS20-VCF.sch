@@ -1638,4 +1638,75 @@ NoConn ~ 2650 4800
 NoConn ~ 1650 4800
 NoConn ~ 2650 5000
 NoConn ~ 1650 5000
+$Comp
+L power:GND #PWR0103
+U 1 1 615CA83B
+P 1100 1450
+F 0 "#PWR0103" H 1100 1200 50  0001 C CNN
+F 1 "GND" H 1105 1277 50  0000 C CNN
+F 2 "" H 1100 1450 50  0001 C CNN
+F 3 "" H 1100 1450 50  0001 C CNN
+	1    1100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61620405
+P 900 700
+F 0 "H1" H 1000 749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1000 658 50  0000 L CNN
+F 2 "Synth:Doepfer Mounting hole" H 900 700 50  0001 C CNN
+F 3 "~" H 900 700 50  0001 C CNN
+	1    900  700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61645961
+P 1100 900
+F 0 "H2" H 1200 949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1200 858 50  0000 L CNN
+F 2 "Synth:Doepfer Mounting hole" H 1100 900 50  0001 C CNN
+F 3 "~" H 1100 900 50  0001 C CNN
+	1    1100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6164DFF0
+P 1300 1100
+F 0 "H3" H 1400 1149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1400 1058 50  0000 L CNN
+F 2 "Synth:Doepfer Mounting hole" H 1300 1100 50  0001 C CNN
+F 3 "~" H 1300 1100 50  0001 C CNN
+	1    1300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 61656975
+P 1500 1300
+F 0 "H4" H 1600 1349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 1258 50  0000 L CNN
+F 2 "Synth:Doepfer Mounting hole" H 1500 1300 50  0001 C CNN
+F 3 "~" H 1500 1300 50  0001 C CNN
+	1    1500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1400 1300 1400
+Wire Wire Line
+	1100 1400 1100 1450
+Wire Wire Line
+	1300 1200 1300 1400
+Connection ~ 1300 1400
+Wire Wire Line
+	1300 1400 1100 1400
+Wire Wire Line
+	1100 1000 1100 1400
+Connection ~ 1100 1400
+Wire Wire Line
+	900  800  900  1400
+Wire Wire Line
+	900  1400 1100 1400
 $EndSCHEMATC
