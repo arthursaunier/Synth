@@ -1362,8 +1362,6 @@ F 3 "" H 2550 5500 50  0001 C CNN
 	1    2550 5500
 	0    -1   -1   0   
 $EndComp
-Text Label 1500 4750 2    50   ~ 0
-FilterOut
 Text Label 1500 4850 2    50   ~ 0
 Cutoff
 Text Label 1500 5150 2    50   ~ 0
@@ -1374,8 +1372,6 @@ Text Label 1500 4350 2    50   ~ 0
 LPass
 Text Label 1500 4650 2    50   ~ 0
 Out1
-Text Label 2500 4750 0    50   ~ 0
-FilterOut
 Text Label 2500 4850 0    50   ~ 0
 Cutoff
 Text Label 2500 5150 0    50   ~ 0
@@ -1508,4 +1504,6 @@ NoConn ~ 2500 5250
 NoConn ~ 1500 5250
 NoConn ~ 2500 4550
 NoConn ~ 1500 4550
+NoConn ~ 1500 4750
+NoConn ~ 2500 4750
 $EndSCHEMATC
