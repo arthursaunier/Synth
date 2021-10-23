@@ -1715,8 +1715,8 @@
     )
   )
 
-  (gr_text JLCJLCJLCJLC (at 81.5 38.5) (layer B.SilkS) (tstamp 6156C2AA)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text JLCJLCJLCJLC (at 81.5 38.5 180) (layer B.SilkS) (tstamp 6156C2AA)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 113 88) (end 73 88) (layer Dwgs.User) (width 0.15) (tstamp 615509ED))
   (gr_line (start 113 95) (end 73 95) (layer Dwgs.User) (width 0.15))
