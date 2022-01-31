@@ -6,7 +6,7 @@
 
 ### Finished projects:
 
-StupidBox
-MS20-VCF
-Drumbox/HiHat+Snare
-PSU
+- StupidBox
+- MS20-VCF
+- Drumbox/HiHat+Snare
+- PSU
