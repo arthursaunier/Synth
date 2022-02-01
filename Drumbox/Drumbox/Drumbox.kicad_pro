@@ -115,20 +115,10 @@
       },
       "track_widths": [
         0.0,
-        0.254,
-        0.635,
-        0.8128
+        0.3,
+        0.6
       ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.9144,
-          "drill": 0.6096
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -365,7 +355,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -380,9 +370,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "+12V"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
