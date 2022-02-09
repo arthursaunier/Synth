@@ -8128,7 +8128,7 @@
   (gr_line (start 73.5 91) (end 319.5 91) (layer "Dwgs.User") (width 0.15) (tstamp 3a5a2251-dded-4930-807d-5696f7ece534))
   (gr_line (start 118.5 31) (end 118.5 141.5) (layer "Dwgs.User") (width 0.1) (tstamp 5f929ec9-d91e-48af-b55c-811fd0cf3029))
   (gr_line (start 178.5 31) (end 178.5 141.5) (layer "Dwgs.User") (width 0.1) (tstamp 6e2ddb52-38ff-4145-80e8-e57645ca0097))
-  (gr_circle (center 339.350852 112.441985) (end 346.850852 112.441985) (layer "Dwgs.User") (width 0.1) (fill solid) (tstamp 7252cf63-d7d1-4028-b449-5792fc6d1955))
+  (gr_circle (center 351.5 106.5) (end 359 106.5) (layer "Dwgs.User") (width 0.1) (fill solid) (tstamp 7252cf63-d7d1-4028-b449-5792fc6d1955))
   (gr_line (start 73.5 58.5) (end 316 58.5) (layer "Dwgs.User") (width 0.15) (tstamp 76bf3f12-008a-4a13-b216-e7dae9728db6))
   (gr_line (start 30 101) (end 192 101) (layer "Dwgs.User") (width 0.1) (tstamp 807e5899-e8b5-4cfd-b969-65aeba9c95e6))
   (gr_line (start 73 38) (end 316 38) (layer "Dwgs.User") (width 0.15) (tstamp 878a2718-59d9-4c03-a97a-b08c3d833cb9))
