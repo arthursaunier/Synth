@@ -1,4 +1,4 @@
-19818324927730203
+19804051995853265
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59465,13 +59465,6 @@ Hamamatsu SiPM
 2
 2
 OptoDevice
-Kingbright_KPS-3227
-3.2mmx2.7mm, light sensor, https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf
-KPS-3227 Ambient Light Photo Sensor
-0
-4
-4
-OptoDevice
 Kingbright_KPS-5130
 http://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-5130PD7C(Ver.14).pdf
 KPS-5130 photodiode RGB sensor
@@ -79008,6 +79001,41 @@ Logo WEEE
 0
 0
 0
+Synth
+Doepfer Mounting hole
+
+
+0
+1
+1
+Synth
+Pot-bourns-alpha
+Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
+Potentiometer vertical Bourns PTV09A-1 Single
+0
+3
+3
+Synth
+SW_DPDT_Toggle
+
+
+0
+6
+6
+Synth
+SW_Toggle_Blue_wSlots
+SW Toggle
+SW Toggle
+0
+3
+3
+Synth
+Thonkiconn
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
