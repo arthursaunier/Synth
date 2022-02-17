@@ -24,7 +24,7 @@
 
 - :warning: Basic mixer 
     - 4 channel active mixer with mute option
-- :warning: Output mixer 
+- :heavy_exclamation_mark: Output mixer 
     - 6 channel output mixer with stereo output
     - an expander can be linked to add a Headphone output
 
