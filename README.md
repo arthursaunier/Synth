@@ -13,18 +13,21 @@
 
 - :warning: Double MS20-VCF
     - MS-20 clone built around the LM17000 chip
-    - 2 filters in one, each with Low pass or High pass with a possibility to bridge them and get an band pass filter
+    - 2 filters in one, each with Low pass or High pass with a possibility to bridge them and get a band pass filter
     - Based on barton's version (https://www.bartonmusicalcircuits.com/synthstuff.html#analog))
 
 - :warning: HiHat+Snare
     - 2 white noise generators with VCAs to create Hihat or Snare sound. 
     - Built on the same module, with 2 separate voices (completly independent)
-
 - :warning: Drumbox 
-    - A 4 sound drumbox built around the CD4011 chip. Bass kick, High and low bonga and claves sound. 
+    - A 4 sounds drumbox built around the CD4011 chip. Bass kick, High and low bonga and claves sound. 
 
 - :warning: Basic mixer 
     - 4 channel active mixer with mute option
+- :warning: Output mixer 
+    - 6 channel output mixer with stereo output
+    - an expander can be linked to add a Headphone output
+
 - :heavy_check_mark:  PSU
     - Basic +/- 12V power supply built around the L7812/7912 regulators.
 -  :heavy_check_mark:  Distribution board
