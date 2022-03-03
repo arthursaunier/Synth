@@ -16,7 +16,7 @@
     - 2 filters in one, each with Low pass or High pass with a possibility to bridge them and get a band pass filter
     - Based on barton's version (https://www.bartonmusicalcircuits.com/synthstuff.html#analog))
 
-- :warning: HiHat+Snare
+- :heavy_check_mark: HiHat+Snare
     - 2 white noise generators with VCAs to create Hihat or Snare sound. 
     - Built on the same module, with 2 separate voices (completly independent)
 - :warning: Drumbox 
