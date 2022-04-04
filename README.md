@@ -6,12 +6,12 @@
 
 ### Finished projects:
 
-- :warning: StupidBox 
+- :heavy_check_mark: StupidBox 
     - (messy directory but everything is there)  
     - Distortion module based on StupidBox stompbox design. 
     - Vactrol CV to control distortion 
 
-- :warning: Double MS20-VCF
+- :heavy_check_mark: Double MS20-VCF
     - MS-20 clone built around the LM17000 chip
     - 2 filters in one, each with Low pass or High pass with a possibility to bridge them and get a band pass filter
     - Based on barton's version (https://www.bartonmusicalcircuits.com/synthstuff.html#analog))
@@ -19,20 +19,22 @@
 - :heavy_check_mark: HiHat+Snare
     - 2 white noise generators with VCAs to create Hihat or Snare sound. 
     - Built on the same module, with 2 separate voices (completly independent)
-- :warning: Drumbox 
+- :heavy_check_mark: Drumbox 
     - A 4 sounds drumbox built around the CD4011 chip. Bass kick, High and low bonga and claves sound. 
 
 - :warning: Basic mixer 
     - 4 channel active mixer with mute option
-- :heavy_exclamation_mark: Output mixer 
+- :warning: Output mixer 
     - 6 channel output mixer with stereo output
     - an expander can be linked to add a Headphone output
 
 - :heavy_check_mark:  PSU
     - Basic +/- 12V power supply built around the L7812/7912 regulators.
 -  :heavy_check_mark:  Distribution board
-    - Basic PSU distribution board.
+    - Basic PSU distribution board.  
 
+- :heavy_exclamation_mark: Drum trigger sequencer
+    - Based off the Big Button from LMNC, with an arduino Nano. 
 
 | Symbol | Description |
 | ----------- | ----------- |
