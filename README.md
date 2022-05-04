@@ -25,8 +25,11 @@
 - :warning: Basic mixer 
     - 4 channel active mixer with mute option
 - :warning: Output mixer 
-    - 6 channel output mixer with stereo output
-    - an expander can be linked to add a Headphone output
+    - 6*2 channels output mixer with stereo output in jack 3.5mm and jack 6.35mm
+    - Headphone amp attached
+- :heavy_check_mark: 3*2 multiplexer
+    - 3*2 multiplexer (3 inputs to 2 output each)
+    - cascade the inputs to all outputs if no other input is plugged in
 
 - :heavy_check_mark:  PSU
     - Basic +/- 12V power supply built around the L7812/7912 regulators.
