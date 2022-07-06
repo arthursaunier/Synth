@@ -1413,11 +1413,6 @@
     (uuid 9031bb33-c6aa-4758-bf5c-3274ed3ebab7)
   )
 
-  (label "Vgnd" (at 120.65 105.41 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 06cb5cf6-405f-4964-834b-295fcd583364)
-  )
-
   (symbol (lib_id "Amplifier_Operational:TL072") (at 167.64 110.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060300eb3)
@@ -1698,6 +1693,22 @@
     (pin "SN" (uuid 33c95270-64ff-470a-acc7-723b6890da08))
     (pin "T" (uuid 0c5ba24d-8557-443e-8d34-1a8d6390a5ad))
     (pin "TN" (uuid 6a41ddc6-96e9-418c-bf39-53d2dff23113))
+  )
+
+  (symbol (lib_id "power:GND") (at 120.65 105.41 180) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 20610dee-24a2-4a35-9d47-947d8d2d938e)
+    (property "Reference" "#PWR?" (id 0) (at 120.65 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 120.523 101.0158 0))
+    (property "Footprint" "" (id 2) (at 120.65 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 120.65 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bfeadbcb-526c-43a6-b7fe-4e2f50efd84c))
   )
 
   (symbol (lib_id "Switch:SW_Push_DPDT") (at 58.42 76.2 270) (unit 1)
@@ -2560,6 +2571,9 @@
     )
     (path "/85439b0d-9f8b-49dc-9063-4f75b3749246"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/20610dee-24a2-4a35-9d47-947d8d2d938e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/5a024088-6937-4126-bed0-b3d42ebf7a88"
       (reference "C1") (unit 1) (value ".1µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
