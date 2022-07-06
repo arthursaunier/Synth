@@ -13183,7 +13183,7 @@
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 7e4ad0ec-eeca-4636-9a66-eff80c9451ca)
     (pts (xy 218 22) (xy 285.5 22))
     (height -15.5)
-    (gr_text "67.5000 mm" (at 251.75 5.35) (layer "Dwgs.User") (tstamp d7397e6a-9af3-4789-8be8-a76847e13c5f)
+    (gr_text "67.5000 mm" (at 251.75 5.35) (layer "Dwgs.User") (tstamp 7e4ad0ec-eeca-4636-9a66-eff80c9451ca)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
