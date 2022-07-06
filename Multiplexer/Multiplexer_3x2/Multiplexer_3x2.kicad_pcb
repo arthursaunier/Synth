@@ -1076,7 +1076,7 @@
 
   (footprint "Synth:Doepfer Mounting hole" (layer "F.Cu")
     (tedit 6156C46B) (tstamp 77ae7df9-3e92-4cc2-ac51-11307d9dc472)
-    (at 82 30.939511)
+    (at 82 30.5)
     (property "Sheetfile" "Multiplexer_3x2.kicad_sch")
     (property "Sheetname" "")
     (path "/e1182175-3dc9-4985-a1c4-8f26f2cc0e1b")
@@ -1283,7 +1283,7 @@
 
   (footprint "Synth:Doepfer Mounting hole" (layer "F.Cu")
     (tedit 6156C46B) (tstamp f4e95bb3-77bd-459d-b064-11e9b3de63c5)
-    (at 82 151.939511)
+    (at 82 152.5)
     (property "Sheetfile" "Multiplexer_3x2.kicad_sch")
     (property "Sheetname" "")
     (path "/7e454fbe-2e78-4710-9f37-15bbb9773e22")
