@@ -3528,7 +3528,7 @@
   (symbol (lib_id "Device:R") (at 41.91 69.85 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 18bf2482-2b82-4079-9014-9d918373e188)
-    (property "Reference" "R?" (id 0) (at 41.91 69.85 90))
+    (property "Reference" "R24" (id 0) (at 41.91 69.85 90))
     (property "Value" "10k" (id 1) (at 44.45 69.85 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 43.688 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -3797,7 +3797,7 @@
   (symbol (lib_id "Device:C_Small") (at 62.23 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 398b9397-861f-42e6-8e6e-bd7b364c3131)
-    (property "Reference" "C?" (id 0) (at 64.5668 75.0316 0)
+    (property "Reference" "C2" (id 0) (at 64.5668 75.0316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 64.5668 77.343 0)
@@ -3954,7 +3954,7 @@
   (symbol (lib_id "Device:R") (at 190.5 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 448327b9-3503-419b-a5da-c243d5c65a69)
-    (property "Reference" "R?" (id 0) (at 190.5 76.2 90))
+    (property "Reference" "R29" (id 0) (at 190.5 76.2 90))
     (property "Value" "10k" (id 1) (at 193.04 76.2 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 192.278 76.2 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4048,7 +4048,7 @@
   (symbol (lib_id "power:GND") (at 182.88 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 505265c3-db0b-4122-b927-61949669767c)
-    (property "Reference" "#PWR?" (id 0) (at 182.88 92.71 0)
+    (property "Reference" "#PWR017" (id 0) (at 182.88 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 182.88 88.9 90)
@@ -4242,7 +4242,7 @@
   (symbol (lib_id "Device:R") (at 36.83 69.85 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 67d53300-a0a8-428c-849b-436e6e4eea74)
-    (property "Reference" "R?" (id 0) (at 36.83 69.85 90))
+    (property "Reference" "R23" (id 0) (at 36.83 69.85 90))
     (property "Value" "10k" (id 1) (at 39.37 69.85 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 38.608 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4310,7 +4310,7 @@
   (symbol (lib_id "Device:R") (at 180.34 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6ffb3f52-779e-4416-a30d-c661201e3fb3)
-    (property "Reference" "R?" (id 0) (at 180.34 76.2 90))
+    (property "Reference" "R27" (id 0) (at 180.34 76.2 90))
     (property "Value" "10k" (id 1) (at 182.88 76.2 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 182.118 76.2 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4341,7 +4341,7 @@
   (symbol (lib_id "Device:R") (at 185.42 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 717862fa-5144-4912-9440-96b09eef69c3)
-    (property "Reference" "R?" (id 0) (at 185.42 76.2 90))
+    (property "Reference" "R28" (id 0) (at 185.42 76.2 90))
     (property "Value" "10k" (id 1) (at 187.96 76.2 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 187.198 76.2 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4579,7 +4579,7 @@
   (symbol (lib_id "Device:R") (at 31.75 69.85 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9240ab9d-8408-47c9-b6a5-45a98bfd7891)
-    (property "Reference" "R?" (id 0) (at 31.75 69.85 90))
+    (property "Reference" "R22" (id 0) (at 31.75 69.85 90))
     (property "Value" "10k" (id 1) (at 34.29 69.85 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 33.528 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4681,7 +4681,7 @@
   (symbol (lib_id "power:GND") (at 31.75 80.01 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9f561dd5-b10b-4d3d-a0c2-5aa8389479e6)
-    (property "Reference" "#PWR?" (id 0) (at 31.75 86.36 0)
+    (property "Reference" "#PWR03" (id 0) (at 31.75 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 36.83 82.55 0)
@@ -4855,7 +4855,7 @@
   (symbol (lib_id "Device:R") (at 21.59 69.85 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b30669e6-57b7-4c7e-bc10-76f31b636e36)
-    (property "Reference" "R?" (id 0) (at 21.59 69.85 90))
+    (property "Reference" "R20" (id 0) (at 21.59 69.85 90))
     (property "Value" "10k" (id 1) (at 24.13 69.85 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 23.368 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4870,7 +4870,7 @@
   (symbol (lib_id "Device:R") (at 175.26 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b4bff82d-eaec-4d01-8a23-d6b7c0c0c1da)
-    (property "Reference" "R?" (id 0) (at 175.26 76.2 90))
+    (property "Reference" "R26" (id 0) (at 175.26 76.2 90))
     (property "Value" "10k" (id 1) (at 177.8 76.2 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 177.038 76.2 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4903,7 +4903,7 @@
   (symbol (lib_id "Device:R") (at 195.58 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b725b143-482a-4d89-b1a6-7a3144269640)
-    (property "Reference" "R?" (id 0) (at 195.58 76.2 90))
+    (property "Reference" "R30" (id 0) (at 195.58 76.2 90))
     (property "Value" "10k" (id 1) (at 198.12 76.2 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 197.358 76.2 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4972,7 +4972,7 @@
   (symbol (lib_id "power:GND") (at 62.23 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd2c3d83-d555-4e89-900b-a23abfc37e18)
-    (property "Reference" "#PWR?" (id 0) (at 62.23 87.63 0)
+    (property "Reference" "#PWR07" (id 0) (at 62.23 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 68.58 82.55 0)
@@ -5005,7 +5005,7 @@
   (symbol (lib_id "power:GND") (at 140.97 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bf6ca09c-ce04-42c8-a7c9-142e76a9965c)
-    (property "Reference" "#PWR?" (id 0) (at 140.97 57.15 0)
+    (property "Reference" "#PWR015" (id 0) (at 140.97 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 147.32 52.07 0)
@@ -5073,7 +5073,7 @@
   (symbol (lib_id "Device:C_Small") (at 140.97 46.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c8901e76-74bb-4150-9313-5745fecb2613)
-    (property "Reference" "C?" (id 0) (at 143.3068 45.8216 0)
+    (property "Reference" "C3" (id 0) (at 143.3068 45.8216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 143.3068 48.133 0)
@@ -5142,7 +5142,7 @@
   (symbol (lib_id "Device:R") (at 26.67 69.85 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d021a6cf-1b9c-4c0e-9cec-66d1c9652a93)
-    (property "Reference" "R?" (id 0) (at 26.67 69.85 90))
+    (property "Reference" "R21" (id 0) (at 26.67 69.85 90))
     (property "Value" "10k" (id 1) (at 29.21 69.85 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 28.448 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5273,7 +5273,7 @@
   (symbol (lib_id "Device:R") (at 170.18 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e181b3a6-41f1-4cba-b768-d648ba7a2c37)
-    (property "Reference" "R?" (id 0) (at 170.18 76.2 90))
+    (property "Reference" "R25" (id 0) (at 170.18 76.2 90))
     (property "Value" "10k" (id 1) (at 172.72 76.2 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 171.958 76.2 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5500,6 +5500,9 @@
     (path "/bc2ea327-a618-4913-869a-cf7845afeb00"
       (reference "#PWR02") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/9f561dd5-b10b-4d3d-a0c2-5aa8389479e6"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f20a1e03-b55f-420a-88bc-30d6189a51f7"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
@@ -5508,6 +5511,9 @@
     )
     (path "/9103a33d-1700-402f-85b6-5ee77937d231"
       (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bd2c3d83-d555-4e89-900b-a23abfc37e18"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/09de0000-01bf-481e-8a3a-280e20e2f0e4"
       (reference "#PWR08") (unit 1) (value "+5V") (footprint "")
@@ -5530,8 +5536,14 @@
     (path "/5451a947-ed9d-4f95-9450-b5a5b8cde10e"
       (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
+    (path "/bf6ca09c-ce04-42c8-a7c9-142e76a9965c"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
     (path "/31dab7c6-ecdb-4efd-b6f5-9fc0da5ec545"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/505265c3-db0b-4122-b927-61949669767c"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
     (path "/e89b668e-4b93-45dd-940b-ab8477522816"
       (reference "#PWR018") (unit 1) (value "+5V") (footprint "")
@@ -5641,20 +5653,14 @@
     (path "/461016e1-95fe-44ab-95ca-f0200c4375d7"
       (reference "#PWR053") (unit 1) (value "-12V") (footprint "")
     )
-    (path "/505265c3-db0b-4122-b927-61949669767c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9f561dd5-b10b-4d3d-a0c2-5aa8389479e6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/bd2c3d83-d555-4e89-900b-a23abfc37e18"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/bf6ca09c-ce04-42c8-a7c9-142e76a9965c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/f025a461-3387-4c46-86ae-e1280132f079"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/398b9397-861f-42e6-8e6e-bd7b364c3131"
+      (reference "C2") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/c8901e76-74bb-4150-9313-5745fecb2613"
+      (reference "C3") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm")
     )
     (path "/2505187e-6a6a-4c27-b0a2-cb7321726f03"
       (reference "C4") (unit 1) (value "10µ") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
@@ -5667,12 +5673,6 @@
     )
     (path "/51df22b6-e057-4f99-b98b-50c5e8bcccf5"
       (reference "C7") (unit 1) (value "10µ") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
-    )
-    (path "/398b9397-861f-42e6-8e6e-bd7b364c3131"
-      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/c8901e76-74bb-4150-9313-5745fecb2613"
-      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm")
     )
     (path "/222bc8d0-4a71-4d66-823c-6acc1ffed734"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D4.0mm")
@@ -5785,38 +5785,38 @@
     (path "/65e17ef3-7831-49a4-8b19-eb943a2b4d57"
       (reference "R19") (unit 1) (value "2.2k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/18bf2482-2b82-4079-9014-9d918373e188"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/448327b9-3503-419b-a5da-c243d5c65a69"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/67d53300-a0a8-428c-849b-436e6e4eea74"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/6ffb3f52-779e-4416-a30d-c661201e3fb3"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/717862fa-5144-4912-9440-96b09eef69c3"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9240ab9d-8408-47c9-b6a5-45a98bfd7891"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
     (path "/b30669e6-57b7-4c7e-bc10-76f31b636e36"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/b4bff82d-eaec-4d01-8a23-d6b7c0c0c1da"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/b725b143-482a-4d89-b1a6-7a3144269640"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R20") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/d021a6cf-1b9c-4c0e-9cec-66d1c9652a93"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R21") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9240ab9d-8408-47c9-b6a5-45a98bfd7891"
+      (reference "R22") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/67d53300-a0a8-428c-849b-436e6e4eea74"
+      (reference "R23") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/18bf2482-2b82-4079-9014-9d918373e188"
+      (reference "R24") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/e181b3a6-41f1-4cba-b768-d648ba7a2c37"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R25") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/b4bff82d-eaec-4d01-8a23-d6b7c0c0c1da"
+      (reference "R26") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/6ffb3f52-779e-4416-a30d-c661201e3fb3"
+      (reference "R27") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/717862fa-5144-4912-9440-96b09eef69c3"
+      (reference "R28") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/448327b9-3503-419b-a5da-c243d5c65a69"
+      (reference "R29") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/b725b143-482a-4d89-b1a6-7a3144269640"
+      (reference "R30") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/7c098210-5f33-4c7a-b478-ac9c07e99923"
       (reference "SW1") (unit 1) (value "SW_MEC_5G_LED") (footprint "")
