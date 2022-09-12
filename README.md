@@ -28,11 +28,11 @@
     - 2 white noise generators with VCAs to create Hihat or Snare sound. 
     - Built on the same module, with 2 separate voices (completly independent)
     - No CV
-- :heavy_check_mark: Drumbox 
+- Drumbox 
     - A 4 sounds drumbox built around the CD4011 chip. Bass kick, High and low bonga and claves sound.
-    - V1.0:
+    - :heavy_check_mark: V1.0:
         - Each voice has a seperate output.
-    - V1.1:
+    - :warning: V1.1:
         - Single main output for the module
         - Push buttons to trigger the voices. The buttons are from THONK (https://www.thonk.co.uk/shop/low-profile-led-buttons/)
 
@@ -40,7 +40,7 @@
 
 - :heavy_check_mark: Basic AC mixer 
     - 4 channel active mixer with mute option with AC coupling (Audio only)
-:heavy_check_mark: Basic DC mixer 
+- :heavy_check_mark: Basic DC mixer 
     - 4 channel active mixer with mute option with DC coupling (Audio+CV)
 - Output mixer
     - :warning: Mono input:
