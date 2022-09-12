@@ -4,40 +4,71 @@
 
 ## Not all projects are finished or even perfect, use at your own risks.
 
-### Finished projects:
+### Effects:
 
 - :heavy_check_mark: StupidBox 
     - (messy directory but everything is there)  
     - Distortion module based on StupidBox stompbox design. 
-    - Vactrol CV to control distortion 
+    - Vactrol CV to control distortion (doesn't work great for now, might be a vactrol problem or schematic problem)
 
-- :heavy_check_mark: Double MS20-VCF
-    - MS-20 clone built around the LM17000 chip
-    - 2 filters in one, each with Low pass or High pass with a possibility to bridge them and get a band pass filter
-    - Based on barton's version (https://www.bartonmusicalcircuits.com/synthstuff.html#analog))
+### Filters:
+
+- MS20-VCF
+    - MS-20 clones built around the LM17000 chip
+    - :warning: Simple MS20 VCF:
+        - 1 LM13700 filter with a Low pass or High pass switch with CV for cutoff
+        - Based on barton's version (https://www.bartonmusicalcircuits.com/synthstuff.html#analog))
+    - :heavy_check_mark: Double MS20-VCF
+        - 2 filters in one, each with Low pass or High pass with a possibility to bridge them and get a band pass filter with CV for cutoff
+        - Based on barton's version (https://www.bartonmusicalcircuits.com/synthstuff.html#analog))
+
+### Drums:
 
 - :heavy_check_mark: HiHat+Snare
     - 2 white noise generators with VCAs to create Hihat or Snare sound. 
     - Built on the same module, with 2 separate voices (completly independent)
+    - No CV
 - :heavy_check_mark: Drumbox 
-    - A 4 sounds drumbox built around the CD4011 chip. Bass kick, High and low bonga and claves sound. 
+    - A 4 sounds drumbox built around the CD4011 chip. Bass kick, High and low bonga and claves sound.
+    - V1.0:
+        - Each voice has a seperate output.
+    - V1.1:
+        - Single main output for the module
+        - Push buttons to trigger the voices. The buttons are from THONK (https://www.thonk.co.uk/shop/low-profile-led-buttons/)
 
-- :warning: Basic mixer 
-    - 4 channel active mixer with mute option
-- :warning: Output mixer 
-    - 6*2 channels output mixer with stereo output in jack 3.5mm and jack 6.35mm
-    - Headphone amp attached
+### Mixers:
+
+- :heavy_check_mark: Basic AC mixer 
+    - 4 channel active mixer with mute option with AC coupling (Audio only)
+:heavy_check_mark: Basic DC mixer 
+    - 4 channel active mixer with mute option with DC coupling (Audio+CV)
+- Output mixer
+    - :warning: Mono input:
+        - 6 channels with 2 mono inputs each, gain and pan on each channel
+        - stereo output in jack 3.5mm and jack 6.35mm
+        - Headphone output with amp
+    - :warning: Stereo input:
+        - 6 channels with stereo inputs, gain and pan on each channel
+        - If only L or R plugged, act as a mono channel
+        - stereo output in jack 3.5mm and jack 6.35mm
+        - Headphone output with amp
 - :heavy_check_mark: 3*2 multiplexer
     - 3*2 multiplexer (3 inputs to 2 output each)
-    - cascade the inputs to all outputs if no other input is plugged in
+    - cascade the first input to all outputs if no other input is plugged in
+
+### PSU:
 
 - :heavy_check_mark:  PSU
     - Basic +/- 12V power supply built around the L7812/7912 regulators.
 -  :heavy_check_mark:  Distribution board
     - Basic PSU distribution board.  
 
+### Sequencers:
+
 - :heavy_exclamation_mark: Drum trigger sequencer
-    - Based off the Big Button from LMNC, with an arduino Nano. 
+    - Based off the Big Button from LMNC, with an arduino Nano.
+    - No code developped yet
+    - Not finished and probably never will :)
 
 | Symbol | Description |
 | ----------- | ----------- |
