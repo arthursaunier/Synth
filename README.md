@@ -1,7 +1,5 @@
 # Synth
 
-## All projects accessible
-
 ## Not all projects are finished or even perfect, use at your own risks.
 
 ### Effects:
@@ -9,7 +7,7 @@
 - :heavy_check_mark: StupidBox 
     - (messy directory but everything is there)  
     - Distortion module based on StupidBox stompbox design. 
-    - Vactrol CV to control distortion (doesn't work great for now, might be a vactrol problem or schematic problem)
+    - Vactrol CV to control distortion
 
 ### Filters:
 
@@ -61,7 +59,7 @@
 - :heavy_check_mark:  PSU
     - Basic +/- 12V power supply built around the L7812/7912 regulators.
 -  :heavy_check_mark:  Distribution board
-    - Basic PSU distribution board.  
+    - Basic PSU distribution board, with 10 IDC headers.
 
 ### Sequencers:
 
