@@ -1,68 +1,29 @@
-# Prerequisites
-*.d
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
 
-# Precompiled Headers
-*.gch
-*.pch
+# Netlist files (exported from Eeschema)
+*.net
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-Drumbox/HiHat \+ Snare/Snare\+Hihat-backups/
-
-Drumbox/Drumbox/Drumbox-backups/
-
-MS20-VCF/MS20-VCF-backups/
-
-Basic-mixer/Basic-mixer-backups/
-
-Output-mixer/Output-mixer-backups/
-
-PSU/PSU/PSU-backups/
-
-Trigger Sequencer/Trigger Sequencer-backups/
-
-Multiplexer/Multiplexer_3x2/Multiplexer_3x2-backups/
-
-Mixers/Basic-mixer/Basic-mixer-backups/
-
-Mixers/Output-mixer/Output-mixer-backups/
-
-HiHat \+ Snare/Snare\+Hihat-backups/
-
-Mixers/Basic-DC-mixer/Basic-mixer-backups/
-
-Mixers/Basic-AC-mixer/Basic-mixer-backups/
-
-Mixers/Basic-DC-mixer/Basic-DC-mixer-backups/
-
-Drumbox/V1.1/Drumbox-backups/
-
-Mixers/Output-mixer/Stereo input/Output-mixer-backups/
-
-PSU/DistributionBoard/Distrib-backups/
-
-MS20-VCF/Double/MS20-VCF-backups/
+# Exported BOM files
+*.xml
+*.csv
