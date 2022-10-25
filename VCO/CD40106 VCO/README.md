@@ -1,15 +1,15 @@
-# MS20 VCF
+# CD40106 VCO
 
-Ms20-VCF clone based on BartonSynth version.
+CD40106 VCO, based around the CD40106 schmidt trigger cmos chip.
 
-cutoff + resonance, with a switch to chose low pass or high pass mode.
+Based around the design of Mortiz klein VCO from the erica synth edu line.
 
-CV control on the filter cutoff.
+4 waveform outputs: Saw, Square, Triangle, Sine.
 
-Uses an SMD LM13700 because the DIP ones are not produced anymore.
+Expander output for future sub oscillator board.
 
-Regular build, I use ceramic capacitors but you can use film/polyester.
+Advanced build, not for beginners.
 
-![3D single MS20-VCF(front)](image/MS20-VCF-3D-front.png)
+![3D CD40106-VCO(front)](image/CD40106-VCO-3D-front.png)
 
-![3D single MS20-VCF(back)](image/MS20-VCF-3D-back.png)
+![3D CD40106-VCO(back)](image/CD40106-VCO-3D-back.png)
