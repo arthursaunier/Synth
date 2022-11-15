@@ -1,4 +1,4 @@
-# MS20 VCF
+# Double MS20 VCF
 
 2 filters in one with a possibility to bridge them and get a band pass filter.
 
@@ -15,7 +15,7 @@ For each filter :
 - Self oscilation if resonance pushed to maximum, can be adjusted with 2 trimmers  on each filter.
 
     - 1 trimmer for the sine wave amplitude (resVol)
-    - 1 trimmer for the level at which the knob for res starts the resonance (resLvl)
+    - 1 trimmer for the level at which the knob for resonance starts the self oscillation (resLvl)
 
 Uses an DIP LM13700 not produced anymore, Will do an SMD version soon.
 

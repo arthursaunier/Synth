@@ -6,6 +6,11 @@ cutoff + resonance, with a switch to chose low pass or high pass mode.
 
 CV control on the filter cutoff.
 
+Self oscilation if resonance pushed to maximum, can be adjusted with 2 trimmers :
+
+- 1 trimmer for the sine wave amplitude (resVol)
+- 1 trimmer for the level at which the knob for resonance starts the self oscillation (resLvl)
+
 Uses an SMD LM13700 because the DIP ones are not produced anymore.
 
 Regular build, I use ceramic capacitors but you can use film/polyester.
