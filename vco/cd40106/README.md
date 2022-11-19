@@ -1,3 +1,8 @@
+---
+permalink: /vco/cd40106/index.html
+layout: single
+---
+
 # CD40106 VCO
 
 CD40106 VCO, based around the CD40106 schmidt trigger cmos chip.

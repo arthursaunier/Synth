@@ -1,3 +1,8 @@
+---
+permalink: /power_supply/psu/index.html
+layout: single
+---
+
 # PSU
 
 Basic +/- 12V power supply built around the L7812/7912 regulators.

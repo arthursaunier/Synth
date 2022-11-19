@@ -1,10 +1,15 @@
+---
+permalink: /index.html
+layout: home
+---
+
 # Synth
 
 ## Not all projects are finished or even perfect, use at your own risks.
 
 ### VCOs:
 
-- :heavy_exclamation_mark: [CD40106-VCO](vco/cd40106)
+- :exclamation: [CD40106-VCO](vco/cd40106)
     - CD40106 saw core oscillator based on Moritz Klein version (https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/)
         - 4 waveforms
             - Saw
@@ -78,7 +83,7 @@
 
 ### Sequencers:
 
-- :heavy_exclamation_mark: [Drum trigger sequencer](trigger_sequencer)
+- :exclamation: [Drum trigger sequencer](trigger_sequencer)
     - Based off the Big Button from LMNC, with an arduino Nano.
     - No code developped yet
     - Not finished and probably never will :)
@@ -87,7 +92,7 @@
 | ----------- | ----------- |
 | :heavy_check_mark: | Fully designed, debugged, tested, and verified. |
 | :warning: | Fully designed but not tested. There is a high chance this won't work first try. |
-| :heavy_exclamation_mark: | Unfinished, messy design. Do not use, for reference or otherwise. |
+| :exclamation: | Unfinished, messy design. Do not use, for reference or otherwise. |
 
 *Cheers to @Sonosus for the labeling idea*
 

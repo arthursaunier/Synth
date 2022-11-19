@@ -1,3 +1,8 @@
+---
+permalink: /ms20_vcf/double/index.html
+layout: single
+---
+
 # Double MS20 VCF
 
 2 filters in one with a possibility to bridge them and get a band pass filter.
