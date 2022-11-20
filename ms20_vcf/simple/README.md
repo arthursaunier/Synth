@@ -23,3 +23,5 @@ Regular build, I use ceramic capacitors but you can use film/polyester.
 ![3D single MS20-VCF(front)](image/MS20-VCF-3D-front.png)
 
 ![3D single MS20-VCF(back)](image/MS20-VCF-3D-back.png)
+
+[See bom](bom/ibom.html)

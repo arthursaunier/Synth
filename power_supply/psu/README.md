@@ -12,3 +12,5 @@ Basic +/- 12V power supply built around the L7812/7912 regulators.
 Don't forget to install heatsinks on the regulators if you don't want them to get to hot!
 
 ![PSU](image/image.jpg)
+
+[See bom](bom/ibom.html)
