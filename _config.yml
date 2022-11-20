@@ -1,0 +1,14 @@
+theme: minimal-mistakes-jekyll
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+
+exclude:
+  - Makefile
+  - .github
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-emoji
