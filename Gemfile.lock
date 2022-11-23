@@ -100,6 +100,7 @@ GEM
     yajl-ruby (1.4.3)
 
 PLATFORMS
+  ruby
   x86_64-darwin-19
 
 DEPENDENCIES
