@@ -47,7 +47,7 @@ layout: home
     - A 4 sounds drumbox built around the CD4011 chip. Bass kick, High and low bonga and claves sound.
     - :heavy_check_mark: V1.0:
         - Each voice has a seperate output.
-    - :warning: [V1.2](drumbox/v1.1):
+    - :warning: [V1.2](drumbox):
         - Single main output for the module
         - Push buttons to trigger the voices. The buttons are from THONK (https://www.thonk.co.uk/shop/low-profile-led-buttons/)
 
