@@ -18,8 +18,4 @@ Push buttons to trigger the voices. The buttons are from THONK (https://www.thon
 
 This version adds a gain change of the output buffers on each voice.
 
-![3D Drumbox(front)](V1.2/image/Snare%2BHihat-3d-front.png)
-
-![3D Drumbox(back)](V1.2/image/Snare%2BHihat-3d-back.png)
-
-[See bom](V1.2/bom/ibom.html)
+[See bom](v1.2/bom/ibom.html)
