@@ -3,6 +3,9 @@ permalink: /index.html
 layout: home
 ---
 
+# This repo is being moved to an organization, there will be no new updates on this repo. For more informations, and with designs up to date, go to [BleepSound](https://github.com/orgs/BleepSound/repositories)
+
+
 # Synth
 
 ## Not all projects are finished or even perfect, use at your own risks.
@@ -21,8 +24,9 @@ layout: home
 
 ### Effects:
 
-- :heavy_check_mark: [StupidBox](stupidbox)
+- :warning: [StupidBox](stupidbox)
     - (messy directory but everything is there)
+    - Size of panels and position is all wrong
     - Distortion module based on StupidBox stompbox design.
     - Vactrol CV to control distortion
 
