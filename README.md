@@ -5,6 +5,8 @@ layout: home
 
 # This repo is being moved to an organization, there will be no new updates on this repo. For more informations, and with designs up to date, go to [BleepSound](https://github.com/orgs/BleepSound/repositories)
 
+# Use all the designs here at your own risk, they have issues.
+
 
 # Synth
 
